@@ -1,0 +1,1564 @@
+features for round 1 ['COST_TRAIN', 'COST_CAR', 'COST_SM', 'TIME_L1', 'LUGGAGE_TRAIN', 'LUGGAGE_SM', 'LUGGAGE_CAR', 'FIRST_SM', 'MALE_SM'] [] {'TIME_L1': 'u', 'LUGGAGE_TRAIN': 'u', 'LUGGAGE_SM': 'u', 'LUGGAGE_CAR': 'ln', 'FIRST_SM': 't', 'MALE_SM': 't'} [] [] False
+estimating an MXL model
+var COST_TRAIN
+var COST_CAR
+var COST_SM
+var TIME_L1
+var LUGGAGE_TRAIN
+var LUGGAGE_SM
+var LUGGAGE_CAR
+var FIRST_SM
+var MALE_SM
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 5476.369356
+         Iterations: 200
+         Function evaluations: 248
+         Gradient evaluations: 248
+**** The optimization did not converge after 200 iterations. ****
+Message: Maximum number of iterations has been exceeded.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 706.2356850187502
+**************************************************
+Estimation time= 68.1 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.3790218  0.50530626 0.11567194]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+COST_TRAIN          -0.0013305400  0.0001422195 -9.3555366101             0 ***
+COST_CAR             0.0060766382  0.0006561960  9.2604011524             0 ***
+COST_SM             -0.0010399779  0.0001085147 -9.5837552634             0 ***
+TIME_L1             -4.5011247267  0.2200721324 -20.4529518459             0 ***
+LUGGAGE_TRAIN       123.1025161941 10.7312989372 11.4713528077             0 ***
+LUGGAGE_SM          124.5002095059 10.7232735336 11.6102801179             0 ***
+LUGGAGE_CAR          4.8010064418  0.0884818409 54.2597937793             0 ***
+FIRST_SM            -0.5740113623  0.2044004780 -2.8082681994       0.00498 ** 
+MALE_SM             -0.0764503018  0.1634516009 -0.4677243993          0.64    
+sd.TIME_L1           7.4621408760  0.2634476087 28.3249520149             0 ***
+sd.LUGGAGE_TRAIN    -2.9785810688  0.2461133031 -12.1024789430             0 ***
+sd.LUGGAGE_SM       -0.2316526533  0.3012146465 -0.7690617172         0.442    
+sd.LUGGAGE_CAR       0.0395939766  0.0044460019  8.9055240140             0 ***
+sd.FIRST_SM         -3.4721192975  0.5294589674 -6.5578628584      5.46e-11 ***
+sd.MALE_SM          -5.0508515362  0.3579228215 -14.1115660513             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5476.369
+AIC= 10982.739
+BIC= 11055.169
+None
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+estimating opposite harmony memory
+opp sol features ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'] [] {'FIRST_SM': 'ln'} [] [] False False False
+features for round 1 ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'] [] {'FIRST_SM': 'ln'} [] [] False
+estimating an MXL model
+var TIME_L1_TRAIN
+var TIME_L1_CAR
+var TIME_L1_SM
+var COST_L2_TRAIN
+var COST_L2_CAR
+var COST_L2_SM
+var HEADWAY_L2_TRAIN
+var HEADWAY_L2_CAR
+var HEADWAY_L2_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var GA0_TC_TRAIN
+var GA0_TC_CAR
+var GA0_TC_SM
+var AGE_CAR_TRAIN
+var AGE_CAR_CAR
+var AGE_CAR_SM
+var AGE_SM_TRAIN
+var AGE_SM_CAR
+var AGE_SM_SM
+var LUGGAGE_CAR_TRAIN
+var LUGGAGE_CAR_CAR
+var LUGGAGE_CAR_SM
+var MALE_TRAIN_TRAIN
+var MALE_TRAIN_CAR
+var MALE_TRAIN_SM
+var INCOME_SM_TRAIN
+var INCOME_SM_CAR
+var INCOME_SM_SM
+var LUGGAGE_TRAIN
+var FIRST_SM
+Optimization terminated successfully.
+         Current function value: 6842.926813
+         Iterations: 59
+         Function evaluations: 79
+         Gradient evaluations: 79
+Estimation time= 22.5 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.29413143 0.57081058 0.135058  ]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+TIME_L1_TRAIN       -0.0253657902  0.0410425762 -0.6180360144         0.537    
+TIME_L1_CAR          0.2471531407  0.0344215440  7.1801875263      6.96e-13 ***
+TIME_L1_SM           0.2413631180  0.0353867249  6.8207249689      9.06e-12 ***
+COST_L2_TRAIN        0.0209776121  0.0013515531 15.5211159509             0 ***
+COST_L2_CAR          0.0063693105  0.0077348041  0.8234611280          0.41    
+COST_L2_SM           0.0065499941  0.0010953859  5.9796225766      2.24e-09 ***
+HEADWAY_L2_TRAIN    -0.0440228506  0.0080962486 -5.4374381239      5.41e-08 ***
+HEADWAY_L2_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_L2_SM        0.0273171654  0.0123746811  2.2075045903        0.0273 *  
+SEATS_TRAIN          0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_CAR            0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_SM             0.2562471831  0.0886805043  2.8895548717       0.00386 ** 
+GA0_TC_TRAIN        -0.0055051552  0.0007529062 -7.3118738842      2.63e-13 ***
+GA0_TC_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+GA0_TC_SM            0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_CAR_TRAIN        0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_CAR_CAR         -0.2302837743  0.0378737813 -6.0802952901       1.2e-09 ***
+AGE_CAR_SM           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_TRAIN         0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_SM           -0.3761475126  0.0342028453 -10.9975503412             0 ***
+LUGGAGE_CAR_TRAIN    0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_CAR_CAR     -0.3871835276  0.0535558620 -7.2295265695      4.85e-13 ***
+LUGGAGE_CAR_SM       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_TRAIN_TRAIN    -0.5407973994  0.0783503548 -6.9022967548      5.12e-12 ***
+MALE_TRAIN_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_TRAIN_SM        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_TRAIN      0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_CAR        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_SM         0.1358255461  0.0302798074  4.4856806530      7.27e-06 ***
+LUGGAGE_TRAIN        0.2378134955  0.0597319111  3.9813475093      6.85e-05 ***
+FIRST_SM            -3.6009237537  0.8830104603 -4.0780080369      4.54e-05 ***
+sd.FIRST_SM          5.8276771696  1.1542818229  5.0487472416      4.45e-07 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -6842.927
+AIC= 13751.854
+BIC= 13911.201
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['TIME_L1_TRAIN', 'COST_L2_CAR', 'HEADWAY_L2_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR']
+asvars_round2 for round 2 ['TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_SM', 'SEATS_SM', 'GA0_TC_TRAIN', 'AGE_CAR_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_CAR', 'MALE_TRAIN_TRAIN', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM']
+nsig_altspec_vars ['TIME_L1_TRAIN', 'COST_L2_CAR', 'HEADWAY_L2_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'TIME_L1_TRAIN', 'COST_L2_CAR', 'HEADWAY_L2_CAR']
+redund_vars for round 2 ['TIME', 'COST', 'HEADWAY', 'SEATS']
+asvars_round2 before removing redundancy ['TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_SM', 'SEATS_SM', 'GA0_TC_TRAIN', 'AGE_CAR_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_CAR', 'MALE_TRAIN_TRAIN', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM']
+rem_asvars = ['AGE_CAR_CAR', 'AGE_SM_SM', 'COST_L2_SM', 'COST_L2_TRAIN', 'FIRST_SM', 'GA0_TC_TRAIN', 'HEADWAY_L2_SM', 'HEADWAY_L2_TRAIN', 'INCOME_SM_SM', 'LUGGAGE_CAR_CAR', 'LUGGAGE_TRAIN', 'MALE_TRAIN_TRAIN', 'SEATS_SM', 'TIME_L1_CAR', 'TIME_L1_SM']
+rem_rand_vars = {'FIRST_SM': 'ln'}
+not same as round 1 model
+MXL model round 2
+var AGE_CAR_CAR
+var AGE_SM_SM
+var COST_L2_SM
+var COST_L2_TRAIN
+var FIRST_SM
+var GA0_TC_TRAIN
+var HEADWAY_L2_SM
+var HEADWAY_L2_TRAIN
+var INCOME_SM_SM
+var LUGGAGE_CAR_CAR
+var LUGGAGE_TRAIN
+var MALE_TRAIN_TRAIN
+var SEATS_SM
+var TIME_L1_CAR
+var TIME_L1_SM
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 6843.463746
+         Iterations: 66
+         Function evaluations: 88
+         Gradient evaluations: 88
+**** The optimization did not converge after 66 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 0.0001126216714926187
+**************************************************
+Estimation time= 19.9 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.29384137 0.57081049 0.13534814]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+AGE_CAR_CAR         -0.2202449308  0.0346858251 -6.3497100084      2.16e-10 ***
+AGE_SM_SM           -0.3693567846  0.0324828591 -11.3708212356             0 ***
+COST_L2_SM           0.0064766495  0.0011901838  5.4417222288      5.28e-08 ***
+COST_L2_TRAIN        0.0207050403  0.0014163837 14.6182419887             0 ***
+GA0_TC_TRAIN        -0.0057067762  0.0007510109 -7.5987925649         3e-14 ***
+HEADWAY_L2_SM        0.0285644056  0.0119522026  2.3898863331        0.0169 *  
+HEADWAY_L2_TRAIN    -0.0461532308  0.0071381611 -6.4657031536      1.01e-10 ***
+INCOME_SM_SM         0.1369012495  0.0290306628  4.7157465981      2.41e-06 ***
+LUGGAGE_CAR_CAR     -0.3836075182  0.0557828183 -6.8768041862      6.12e-12 ***
+LUGGAGE_TRAIN        0.2299085988  0.0611963430  3.7569009426      0.000172 ***
+MALE_TRAIN_TRAIN    -0.5512040622  0.0774208327 -7.1195832285      1.08e-12 ***
+SEATS_SM             0.2644482664  0.0841247876  3.1435237335       0.00167 ** 
+TIME_L1_CAR          0.2743818225  0.0209146008 13.1191518054             0 ***
+TIME_L1_SM           0.2480168761  0.0322904622  7.6808091018      1.58e-14 ***
+FIRST_SM            -3.6800243231  0.9025058282 -4.0775629452      4.55e-05 ***
+sd.FIRST_SM          5.9140491809  1.1909417314  4.9658593908      6.84e-07 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -6843.464
+AIC= 13718.927
+BIC= 13796.187
+None
+convergence not reached in round 2 so final sol is from round 1
+solution at current iteration [13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False] True
+unique_opp_HM is for iteration 0 is [[13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False]]
+features for round 1 ['AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'INCOME_CAR_TRAIN', 'INCOME_CAR_CAR', 'INCOME_CAR_SM', 'TIME_L2', 'HEADWAY_L1', 'SEATS', 'AGE_TRAIN', 'MALE_TRAIN'] [] {'TIME_L2': 't', 'HEADWAY_L1': 't', 'SEATS': 'n', 'AGE_TRAIN': 'n'} ['AGE_TRAIN', 'HEADWAY_L1'] [] False
+estimating an MXL model
+var AGE_SM_TRAIN
+var AGE_SM_CAR
+var AGE_SM_SM
+var INCOME_CAR_TRAIN
+var INCOME_CAR_CAR
+var INCOME_CAR_SM
+var TIME_L2
+var HEADWAY_L1
+var SEATS
+var AGE_TRAIN
+var MALE_TRAIN
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 5285.062724
+         Iterations: 200
+         Function evaluations: 238
+         Gradient evaluations: 238
+**** The optimization did not converge after 200 iterations. ****
+Message: Maximum number of iterations has been exceeded.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 287.2469528890913
+**************************************************
+Estimation time= 72.4 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.33233384 0.54004051 0.12762565]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+AGE_SM_TRAIN         0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_SM           -0.8972443880  0.0998326169 -8.9874874123             0 ***
+INCOME_CAR_TRAIN     0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_CAR_CAR      -0.2979501083  0.1287081989 -2.3149271820        0.0206 *  
+INCOME_CAR_SM        0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_TRAIN          -0.4232571932  0.2180740638 -1.9408873559        0.0523 .  
+TIME_L2             -0.2141109498  0.0122735571 -17.4448978346             0 ***
+SEATS               -0.2452301817  0.1400499333 -1.7510196257        0.0799 .  
+sd.TIME_L2           0.4373526893  0.0224825774 19.4529604657             0 ***
+sd.SEATS            -0.2422701888  0.1885991494 -1.2845773142         0.199    
+AGE_TRAIN            0.0002779718  0.0003434873  0.8092637420         0.418    
+HEADWAY_L1          -1.6598782824  0.1337493734 -12.4103630520             0 ***
+sd.AGE_TRAIN         0.0010129130  0.0013335790  0.7595447802         0.448    
+sd.HEADWAY_L1        1.0659339067  0.0589015119 18.0968853162             0 ***
+lambda.AGE_TRAIN    -0.1012303418  0.0220177625 -50.0155427050             0 ***
+lambda.HEADWAY_L1    0.9793737016  0.1006086121 -0.2050152361         0.838    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5285.063
+AIC= 10604.125
+BIC= 10686.214
+None
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+estimating opposite harmony memory
+opp sol features ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_SM_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'COST_L2', 'HEADWAY_L1', 'AGE_SM', 'LUGGAGE_TRAIN', 'LUGGAGE_CAR'] [] {'COST_L2': 't', 'AGE_SM': 't', 'LUGGAGE_TRAIN': 'ln'} ['AGE_SM', 'LUGGAGE_TRAIN', 'COST_L2'] [] True False True
+features for round 1 ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_SM_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'COST_L2', 'HEADWAY_L1', 'AGE_SM', 'LUGGAGE_TRAIN', 'LUGGAGE_CAR'] [] {'COST_L2': 't', 'AGE_SM': 't', 'LUGGAGE_TRAIN': 'ln'} ['AGE_SM', 'LUGGAGE_TRAIN', 'COST_L2'] [] True
+estimating an MXL model
+var TIME_L1_TRAIN
+var TIME_L1_CAR
+var TIME_L1_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var LUGGAGE_SM_TRAIN
+var LUGGAGE_SM_CAR
+var LUGGAGE_SM_SM
+var MALE_SM_TRAIN
+var MALE_SM_CAR
+var MALE_SM_SM
+var MALE_TRAIN_TRAIN
+var MALE_TRAIN_CAR
+var MALE_TRAIN_SM
+var COST_L2
+var HEADWAY_L1
+var AGE_SM
+var LUGGAGE_TRAIN
+var LUGGAGE_CAR
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+features for round 1 ['COST_TRAIN', 'COST_CAR', 'COST_SM', 'HEADWAY_TRAIN', 'HEADWAY_CAR', 'HEADWAY_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'TIME_L1', 'LUGGAGE_SM', 'MALE_TRAIN', 'INCOME_SM'] [] {'TIME_L1': 'n', 'INCOME_SM': 'n'} [] [] True
+estimating an MXL model
+var COST_TRAIN
+var COST_CAR
+var COST_SM
+var HEADWAY_TRAIN
+var HEADWAY_CAR
+var HEADWAY_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var TIME_L1
+var LUGGAGE_SM
+var MALE_TRAIN
+var INCOME_SM
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 5706.912578
+         Iterations: 46
+         Function evaluations: 64
+         Gradient evaluations: 64
+**** The optimization did not converge after 46 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 0.0005473279659797825
+**************************************************
+Estimation time= 16.1 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.40072999 0.48687534 0.11239467]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        0.2421033386  0.3300732339  0.7334837052         0.463    
+_intercept.TRAIN    -0.3357049744  0.1729316610 -1.9412580238        0.0522 .  
+COST_TRAIN           0.0005724206  0.0000647865  8.8354851958             0 ***
+COST_CAR            -0.0005916348  0.0011265520 -0.5251730589         0.599    
+COST_SM              0.0000276395  0.0000760399  0.3634863478         0.716    
+HEADWAY_TRAIN       -0.0091870318  0.0012670059 -7.2509779229      4.14e-13 ***
+HEADWAY_CAR          0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_SM          -0.0165648202  0.0039779140 -4.1641976272      3.12e-05 ***
+SEATS_TRAIN          0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_CAR            0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_SM            -0.1684159287  0.1285617160 -1.3100006277          0.19    
+LUGGAGE_SM           0.7065765462  0.1646981664  4.2901300099      1.79e-05 ***
+MALE_TRAIN          -0.5319051014  0.1368999650 -3.8853560070      0.000102 ***
+TIME_L1             -3.1913271493  0.2397684024 -13.3100405093             0 ***
+INCOME_SM           -0.3134779496  0.1338023733 -2.3428429699        0.0191 *  
+sd.TIME_L1          -4.4900326540  0.2224846644 -20.1813130137             0 ***
+sd.INCOME_SM         1.2286915031  0.0630600389 19.4844710554             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5706.913
+AIC= 11447.825
+BIC= 11529.913
+None
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+estimating opposite harmony memory
+opp sol features ['HEADWAY_TRAIN', 'HEADWAY_CAR', 'HEADWAY_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'FIRST_SM_TRAIN', 'FIRST_SM_CAR', 'FIRST_SM_SM', 'MALE_CAR_TRAIN', 'MALE_CAR_CAR', 'MALE_CAR_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'COST_L1', 'LUGGAGE_TRAIN', 'MALE_SM', 'MALE_TRAIN', 'INCOME_TRAIN'] [] {'COST_L1': 'u', 'LUGGAGE_TRAIN': 'u', 'MALE_SM': 'ln', 'INCOME_TRAIN': 'n'} [] [] False False True
+features for round 1 ['HEADWAY_TRAIN', 'HEADWAY_CAR', 'HEADWAY_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'FIRST_SM_TRAIN', 'FIRST_SM_CAR', 'FIRST_SM_SM', 'MALE_CAR_TRAIN', 'MALE_CAR_CAR', 'MALE_CAR_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'COST_L1', 'LUGGAGE_TRAIN', 'MALE_SM', 'MALE_TRAIN', 'INCOME_TRAIN'] [] {'COST_L1': 'u', 'LUGGAGE_TRAIN': 'u', 'MALE_SM': 'ln', 'INCOME_TRAIN': 'n'} [] [] True
+estimating an MXL model
+var HEADWAY_TRAIN
+var HEADWAY_CAR
+var HEADWAY_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var GA0_TC_TRAIN
+var GA0_TC_CAR
+var GA0_TC_SM
+var AGE_SM_TRAIN
+var AGE_SM_CAR
+var AGE_SM_SM
+var FIRST_SM_TRAIN
+var FIRST_SM_CAR
+var FIRST_SM_SM
+var MALE_CAR_TRAIN
+var MALE_CAR_CAR
+var MALE_CAR_SM
+var INCOME_SM_TRAIN
+var INCOME_SM_CAR
+var INCOME_SM_SM
+var COST_L1
+var LUGGAGE_TRAIN
+var MALE_SM
+var MALE_TRAIN
+var INCOME_TRAIN
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 5541.615669
+         Iterations: 200
+         Function evaluations: 241
+         Gradient evaluations: 241
+**** The optimization did not converge after 200 iterations. ****
+Message: Maximum number of iterations has been exceeded.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 13.79062797925133
+**************************************************
+Estimation time= 76.9 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.39294091 0.49100004 0.11605905]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        1.4915170196  0.2357658997  6.3262627095      2.51e-10 ***
+_intercept.TRAIN     1.6119848137  0.3345740173  4.8180215144      1.45e-06 ***
+HEADWAY_TRAIN       -0.0112988576  0.0014128346 -7.9972969610      1.33e-15 ***
+HEADWAY_CAR          0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_SM          -0.0138807710  0.0035973347 -3.8586265471      0.000114 ***
+SEATS_TRAIN          0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_CAR            0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_SM            -0.0754306788  0.1162199384 -0.6490338905         0.516    
+GA0_TC_TRAIN        -0.0133424394  0.0011313328 -11.7935583531             0 ***
+GA0_TC_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+GA0_TC_SM            0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_TRAIN         0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_SM           -0.2784530486  0.0532945928 -5.2247898666      1.74e-07 ***
+FIRST_SM_TRAIN       0.1000000000  1.0000000000  0.1000000000          0.92    
+FIRST_SM_CAR         0.1000000000  1.0000000000  0.1000000000          0.92    
+FIRST_SM_SM          0.6292669314  0.1183135008  5.3186401120      1.05e-07 ***
+MALE_CAR_TRAIN       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_CAR_CAR        30.8316947454  7.7438829896  3.9814256991      6.85e-05 ***
+MALE_CAR_SM          0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_TRAIN      0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_CAR        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_SM         0.1879306891  0.0762467798  2.4647688684        0.0137 *  
+MALE_TRAIN          29.7955490868  7.7571329983  3.8410517254      0.000123 ***
+COST_L1             -1.4217070229  0.1066314309 -13.3329076726             0 ***
+LUGGAGE_TRAIN        1.2281344553  0.1779140780  6.9029638849      5.09e-12 ***
+MALE_SM              3.4235655077  0.2538222063 13.4880456583             0 ***
+INCOME_TRAIN        -1.3071293346  0.1450643258 -9.0106876857             0 ***
+sd.COST_L1           5.0564868769  0.2116466041 23.8911788698             0 ***
+sd.LUGGAGE_TRAIN    -0.8186764708  0.2995846524 -2.7327049769       0.00628 ** 
+sd.MALE_SM           0.0567915189  0.0145817442  3.8946999989      9.83e-05 ***
+sd.INCOME_TRAIN      1.4231469810  0.0721402495 19.7275029052             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5541.616
+AIC= 11147.231
+BIC= 11301.750
+None
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+features for round 1 ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_CAR', 'HEADWAY_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'LUGGAGE_TRAIN_TRAIN', 'LUGGAGE_TRAIN_CAR', 'LUGGAGE_TRAIN_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_SM_SM', 'MALE_CAR_TRAIN', 'MALE_CAR_CAR', 'MALE_CAR_SM', 'AGE_SM', 'LUGGAGE_SM', 'INCOME_TRAIN', 'INCOME_CAR'] [] {'AGE_SM': 'ln', 'LUGGAGE_SM': 'u', 'INCOME_CAR': 'ln'} [] [] True
+estimating an MXL model
+var TIME_L1_TRAIN
+var TIME_L1_CAR
+var TIME_L1_SM
+var COST_L1_TRAIN
+var COST_L1_CAR
+var COST_L1_SM
+var HEADWAY_L1_TRAIN
+var HEADWAY_L1_CAR
+var HEADWAY_L1_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var GA0_TC_TRAIN
+var GA0_TC_CAR
+var GA0_TC_SM
+var LUGGAGE_TRAIN_TRAIN
+var LUGGAGE_TRAIN_CAR
+var LUGGAGE_TRAIN_SM
+var MALE_SM_TRAIN
+var MALE_SM_CAR
+var MALE_SM_SM
+var MALE_CAR_TRAIN
+var MALE_CAR_CAR
+var MALE_CAR_SM
+var AGE_SM
+var LUGGAGE_SM
+var INCOME_TRAIN
+var INCOME_CAR
+Optimization terminated successfully.
+         Current function value: 5669.553243
+         Iterations: 129
+         Function evaluations: 140
+         Gradient evaluations: 140
+Estimation time= 45.0 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.29752369 0.56577778 0.13669853]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM       12.0012026104  0.9362679568 12.8181281046             0 ***
+_intercept.TRAIN    16.4700312456  1.0472992323 15.7261943276             0 ***
+TIME_L1_TRAIN       -2.3987413854  0.1820720515 -13.1746820325             0 ***
+TIME_L1_CAR         -0.5578225059  0.1183766016 -4.7122699799      2.45e-06 ***
+TIME_L1_SM          -1.6667929523  0.1728772250 -9.6414837322             0 ***
+COST_L1_TRAIN        0.1761627967  0.0686334193  2.5667203878        0.0103 *  
+COST_L1_CAR          0.9359073295  0.1268777952  7.3764469836      1.63e-13 ***
+COST_L1_SM          -0.2226885705  0.0789030143 -2.8223075178       0.00477 ** 
+HEADWAY_L1_TRAIN    -0.5498819123  0.0854388801 -6.4359681627      1.23e-10 ***
+HEADWAY_L1_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_L1_SM       -0.2762842490  0.0632932987 -4.3651421967      1.27e-05 ***
+SEATS_TRAIN          0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_CAR            0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_SM            -0.5032485954  0.1317866252 -3.8186621323      0.000134 ***
+GA0_TC_TRAIN        -0.0094569698  0.0011311440 -8.3605354751             0 ***
+GA0_TC_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+GA0_TC_SM            0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_TRAIN_TRAIN  0.9822526013  0.1559381716  6.2989875509         3e-10 ***
+LUGGAGE_TRAIN_CAR    0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_TRAIN_SM     0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_SM_TRAIN        0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_SM_CAR          0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_SM_SM           0.4409080650  0.1709879217  2.5785918716       0.00992 ** 
+MALE_CAR_TRAIN       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_CAR_CAR         0.6925714183  0.2088400149  3.3162773845      0.000912 ***
+MALE_CAR_SM          0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_TRAIN        -0.0434274171  0.0752796208 -0.5768814547         0.564    
+AGE_SM              -1.2439190201  0.2510266438 -4.9553266582      7.22e-07 ***
+LUGGAGE_SM           0.9610531473  0.1664986938  5.7721362590      7.83e-09 ***
+INCOME_CAR          -0.4689543076  0.1332519662 -3.5193049752      0.000433 ***
+sd.AGE_SM            1.6581155841  0.1742124334  9.5177798256             0 ***
+sd.LUGGAGE_SM       -2.2030407777  0.1778420535 -12.3876256185             0 ***
+sd.INCOME_CAR        1.0870546455  0.0709884082 15.3131288964             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5669.553
+AIC= 11405.106
+BIC= 11564.454
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['HEADWAY_L1_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'GA0_TC_CAR', 'GA0_TC_SM', 'LUGGAGE_TRAIN_CAR', 'LUGGAGE_TRAIN_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_CAR_TRAIN', 'MALE_CAR_SM', 'INCOME_TRAIN']
+asvars_round2 for round 2 ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_SM', 'SEATS_SM', 'GA0_TC_TRAIN', 'LUGGAGE_TRAIN_TRAIN', 'MALE_SM_SM', 'MALE_CAR_CAR', 'AGE_SM', 'LUGGAGE_SM', 'INCOME_CAR']
+nsig_altspec_vars ['HEADWAY_L1_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'GA0_TC_CAR', 'GA0_TC_SM', 'LUGGAGE_TRAIN_CAR', 'LUGGAGE_TRAIN_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_CAR_TRAIN', 'MALE_CAR_SM', 'HEADWAY_L1_CAR']
+redund_vars for round 2 ['HEADWAY', 'SEATS']
+asvars_round2 before removing redundancy ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_SM', 'SEATS_SM', 'GA0_TC_TRAIN', 'LUGGAGE_TRAIN_TRAIN', 'MALE_SM_SM', 'MALE_CAR_CAR', 'AGE_SM', 'LUGGAGE_SM', 'INCOME_CAR']
+rem_asvars = ['AGE_SM', 'COST_L1_CAR', 'COST_L1_SM', 'COST_L1_TRAIN', 'GA0_TC_TRAIN', 'HEADWAY_L1_SM', 'HEADWAY_L1_TRAIN', 'INCOME_CAR', 'LUGGAGE_SM', 'LUGGAGE_TRAIN_TRAIN', 'MALE_CAR_CAR', 'MALE_SM_SM', 'SEATS_SM', 'TIME_L1_CAR', 'TIME_L1_SM', 'TIME_L1_TRAIN']
+rem_rand_vars = {'AGE_SM': 'ln', 'LUGGAGE_SM': 'u', 'INCOME_CAR': 'ln'}
+not same as round 1 model
+MXL model round 2
+var AGE_SM
+var COST_L1_CAR
+var COST_L1_SM
+var COST_L1_TRAIN
+var GA0_TC_TRAIN
+var HEADWAY_L1_SM
+var HEADWAY_L1_TRAIN
+var INCOME_CAR
+var LUGGAGE_SM
+var LUGGAGE_TRAIN_TRAIN
+var MALE_CAR_CAR
+var MALE_SM_SM
+var SEATS_SM
+var TIME_L1_CAR
+var TIME_L1_SM
+var TIME_L1_TRAIN
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 17592.526875
+         Iterations: 2
+         Function evaluations: 21
+         Gradient evaluations: 10
+**** The optimization did not converge after 2 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 22111075.457073413
+**************************************************
+Estimation time= 6.1 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.20107391 0.62611414 0.17281195]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM       -0.0795042347  0.9977464892 -0.0796838030         0.936    
+_intercept.TRAIN     0.2675709316  0.9992508807  0.2677715244         0.789    
+COST_L1_CAR          0.4301707268  0.9884561114  0.4351945643         0.663    
+COST_L1_SM          -0.9847446693  0.9256127364 -1.0638840960         0.287    
+COST_L1_TRAIN        1.1789798869  0.9623994907  1.2250420935         0.221    
+GA0_TC_TRAIN        -0.3325294618  0.0926423474 -3.5893894220      0.000331 ***
+HEADWAY_L1_SM       -0.4450412736  0.9793378112 -0.4544308088          0.65    
+HEADWAY_L1_TRAIN     0.7509876457  0.9867057977  0.7611059421         0.447    
+LUGGAGE_TRAIN_TRAIN  0.2853519063  0.9992885272  0.2855550709         0.775    
+MALE_CAR_CAR         0.1308730769  0.9998253752  0.1308959346         0.896    
+MALE_SM_SM          -0.0014009149  0.9991276078 -0.0014021381         0.999    
+SEATS_SM             0.0729452110  0.9999772903  0.0729468676         0.942    
+TIME_L1_CAR          0.4450598685  0.9863582803  0.4512152201         0.652    
+TIME_L1_SM          -0.7350653591  0.9520414426 -0.7720938672          0.44    
+TIME_L1_TRAIN        0.8575355691  0.9825082184  0.8728024388         0.383    
+AGE_SM              -0.5456106966  0.9643515728 -0.5657798587         0.572    
+INCOME_CAR           0.0854615332  0.9998783465  0.0854719311         0.932    
+LUGGAGE_SM          -0.0414323336  0.9986854281 -0.0414868710         0.967    
+sd.AGE_SM            2.9709064904  0.8447265003  3.5170040117      0.000436 ***
+sd.INCOME_CAR        1.5028990871  0.9618907183  1.5624426542         0.118    
+sd.LUGGAGE_SM        0.1682045879  0.9998921043  0.1682227384         0.866    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -17592.527
+AIC= 35227.054
+BIC= 35328.457
+None
+convergence not reached in round 2 so final sol is from round 1
+solution at current iteration [11564.453984286274, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_CAR', 'HEADWAY_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'LUGGAGE_TRAIN_TRAIN', 'LUGGAGE_TRAIN_CAR', 'LUGGAGE_TRAIN_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_SM_SM', 'MALE_CAR_TRAIN', 'MALE_CAR_CAR', 'MALE_CAR_SM', 'AGE_SM', 'LUGGAGE_SM', 'INCOME_TRAIN', 'INCOME_CAR'], [], {'AGE_SM': 'ln', 'LUGGAGE_SM': 'u', 'INCOME_CAR': 'ln'}, [], [], True] True
+harmony memory for iteration 3 is [[11564.453984286274, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_CAR', 'HEADWAY_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'LUGGAGE_TRAIN_TRAIN', 'LUGGAGE_TRAIN_CAR', 'LUGGAGE_TRAIN_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_SM_SM', 'MALE_CAR_TRAIN', 'MALE_CAR_CAR', 'MALE_CAR_SM', 'AGE_SM', 'LUGGAGE_SM', 'INCOME_TRAIN', 'INCOME_CAR'], [], {'AGE_SM': 'ln', 'LUGGAGE_SM': 'u', 'INCOME_CAR': 'ln'}, [], [], True], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['FIRST_SM_TRAIN', 'FIRST_SM_CAR', 'FIRST_SM_SM', 'TIME_L2', 'SEATS', 'AGE_SM', 'MALE_SM'] [] {'TIME_L2': 't', 'SEATS': 'u', 'MALE_SM': 'n'} [] [] False False True
+features for round 1 ['FIRST_SM_TRAIN', 'FIRST_SM_CAR', 'FIRST_SM_SM', 'TIME_L2', 'SEATS', 'AGE_SM', 'MALE_SM'] [] {'TIME_L2': 't', 'SEATS': 'u', 'MALE_SM': 'n'} [] [] True
+estimating an MXL model
+var FIRST_SM_TRAIN
+var FIRST_SM_CAR
+var FIRST_SM_SM
+var TIME_L2
+var SEATS
+var AGE_SM
+var MALE_SM
+Optimization terminated successfully.
+         Current function value: 5906.898797
+         Iterations: 37
+         Function evaluations: 44
+         Gradient evaluations: 44
+Estimation time= 10.6 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.38882919 0.4865035  0.12466731]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        1.0387930696  0.1553785414  6.6855632722       2.3e-11 ***
+_intercept.TRAIN    -0.9776244152  0.0531049388 -18.4092937042             0 ***
+FIRST_SM_TRAIN       0.1000000000  1.0000000000  0.1000000000          0.92    
+FIRST_SM_CAR         0.1000000000  1.0000000000  0.1000000000          0.92    
+FIRST_SM_SM         -0.6143784376  0.1203777998 -5.1037520109      3.33e-07 ***
+AGE_SM              -0.2700055490  0.0535656938 -5.0406431816      4.64e-07 ***
+TIME_L2             -0.2895378989  0.0155365444 -18.6359264241             0 ***
+SEATS                0.1847369237  0.1355100102  1.3632714175         0.173    
+MALE_SM             -0.4122602029  0.1509408464 -2.7312699828       0.00631 ** 
+sd.TIME_L2           1.0688761249  0.0414327301 25.7978685593             0 ***
+sd.SEATS             1.7224183762  0.3115651314  5.5282770846      3.23e-08 ***
+sd.MALE_SM           2.7543146930  0.1523983016 18.0731324749             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5906.899
+AIC= 11837.798
+BIC= 11895.742
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['FIRST_SM_TRAIN', 'FIRST_SM_CAR', 'SEATS']
+asvars_round2 for round 2 ['FIRST_SM_SM', 'TIME_L2', 'AGE_SM', 'MALE_SM']
+nsig_altspec_vars ['FIRST_SM_TRAIN', 'FIRST_SM_CAR']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['FIRST_SM_SM', 'TIME_L2', 'AGE_SM', 'MALE_SM']
+rem_asvars = ['AGE_SM', 'FIRST_SM_SM', 'MALE_SM', 'TIME_L2']
+rem_rand_vars = {'TIME_L2': 't', 'MALE_SM': 'n'}
+not same as round 1 model
+MXL model round 2
+var AGE_SM
+var FIRST_SM_SM
+var MALE_SM
+var TIME_L2
+Optimization terminated successfully.
+         Current function value: 5917.316340
+         Iterations: 31
+         Function evaluations: 37
+         Gradient evaluations: 37
+Estimation time= 8.3 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.39009593 0.47985763 0.13004644]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        1.0785063100  0.1559073920  6.9176085638      4.59e-12 ***
+_intercept.TRAIN    -0.9896254069  0.0547782409 -18.0660311606             0 ***
+AGE_SM              -0.2524089123  0.0541532865 -4.6610082010      3.15e-06 ***
+FIRST_SM_SM         -0.5605492784  0.1268063873 -4.4205129610      9.85e-06 ***
+MALE_SM             -0.5790390820  0.1474114991 -3.9280455413      8.56e-05 ***
+TIME_L2             -0.2804991344  0.0173397073 -16.1766937669             0 ***
+sd.MALE_SM           2.7241922354  0.1485582649 18.3375340131             0 ***
+sd.TIME_L2           1.1014124308  0.0420735208 26.1782805558             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5917.316
+AIC= 11850.633
+BIC= 11889.262
+None
+non_sig in round 2 []
+non-significant terms cannot be further eliminated
+solution at current iteration [11889.26237600043, ['AGE_SM', 'FIRST_SM_SM', 'MALE_SM', 'TIME_L2'], [], {'TIME_L2': 't', 'MALE_SM': 'n'}, [], [], True] True
+unique_opp_HM is for iteration 3 is [[11889.26237600043, ['AGE_SM', 'FIRST_SM_SM', 'MALE_SM', 'TIME_L2'], [], {'TIME_L2': 't', 'MALE_SM': 'n'}, [], [], True], [13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False]]
+features for round 1 ['COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_TRAIN', 'HEADWAY_CAR', 'HEADWAY_SM', 'AGE_TRAIN_TRAIN', 'AGE_TRAIN_CAR', 'AGE_TRAIN_SM', 'INCOME_TRAIN_TRAIN', 'INCOME_TRAIN_CAR', 'INCOME_TRAIN_SM', 'INCOME_CAR_TRAIN', 'INCOME_CAR_CAR', 'INCOME_CAR_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'TIME_L1', 'GA0_TC', 'LUGGAGE_TRAIN', 'LUGGAGE_SM'] [] {'GA0_TC': 'n', 'LUGGAGE_TRAIN': 't'} ['LUGGAGE_TRAIN', 'TIME_L1'] [] False
+estimating an MXL model
+var COST_L2_TRAIN
+var COST_L2_CAR
+var COST_L2_SM
+var HEADWAY_TRAIN
+var HEADWAY_CAR
+var HEADWAY_SM
+var AGE_TRAIN_TRAIN
+var AGE_TRAIN_CAR
+var AGE_TRAIN_SM
+var INCOME_TRAIN_TRAIN
+var INCOME_TRAIN_CAR
+var INCOME_TRAIN_SM
+var INCOME_CAR_TRAIN
+var INCOME_CAR_CAR
+var INCOME_CAR_SM
+var INCOME_SM_TRAIN
+var INCOME_SM_CAR
+var INCOME_SM_SM
+var TIME_L1
+var GA0_TC
+var LUGGAGE_TRAIN
+var LUGGAGE_SM
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 18217.545879
+         Iterations: 0
+         Function evaluations: 42
+         Gradient evaluations: 30
+**** The optimization did not converge after 0 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 1.6069243740749372e+70
+**************************************************
+Estimation time= 11.8 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.00649375 0.08172761 0.91177863]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+COST_L2_TRAIN        0.1000000000  1.0000000000  0.1000000000          0.92    
+COST_L2_CAR          0.1000000000  1.0000000000  0.1000000000          0.92    
+COST_L2_SM           0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_TRAIN        0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_CAR          0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_SM           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_TRAIN_TRAIN      0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_TRAIN_CAR        0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_TRAIN_SM         0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_TRAIN_TRAIN   0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_TRAIN_CAR     0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_TRAIN_SM      0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_CAR_TRAIN     0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_CAR_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_CAR_SM        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_TRAIN      0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_CAR        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_SM         0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_SM           0.1000000000  1.0000000000  0.1000000000          0.92    
+GA0_TC               0.1000000000  1.0000000000  0.1000000000          0.92    
+sd.GA0_TC            0.1000000000  1.0000000000  0.1000000000          0.92    
+TIME_L1              0.1000000000  1.0000000000  0.1000000000          0.92    
+lambda.TIME_L1       0.1000000000  1.0000000000 -0.9000000000         0.368    
+LUGGAGE_TRAIN        0.1000000000  1.0000000000  0.1000000000          0.92    
+sd.LUGGAGE_TRAIN     0.1000000000  1.0000000000  0.1000000000          0.92    
+lambda.LUGGAGE_TRAI  0.1000000000  1.0000000000 -0.9000000000         0.368    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -18217.546
+AIC= 36487.092
+BIC= 36612.638
+None
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+estimating opposite harmony memory
+opp sol features ['TIME_TRAIN', 'TIME_CAR', 'TIME_SM', 'LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'COST_L1', 'GA0_TC', 'AGE_TRAIN', 'LUGGAGE_CAR', 'MALE_SM', 'INCOME_CAR'] [] {'COST_L1': 'n', 'GA0_TC': 'ln', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln', 'MALE_SM': 'u', 'INCOME_CAR': 't'} [] [] False False True
+features for round 1 ['TIME_TRAIN', 'TIME_CAR', 'TIME_SM', 'LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'COST_L1', 'GA0_TC', 'AGE_TRAIN', 'LUGGAGE_CAR', 'MALE_SM', 'INCOME_CAR'] [] {'COST_L1': 'n', 'GA0_TC': 'ln', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln', 'MALE_SM': 'u', 'INCOME_CAR': 't'} [] [] True
+estimating an MXL model
+var TIME_TRAIN
+var TIME_CAR
+var TIME_SM
+var LUGGAGE_SM_TRAIN
+var LUGGAGE_SM_CAR
+var LUGGAGE_SM_SM
+var MALE_TRAIN_TRAIN
+var MALE_TRAIN_CAR
+var MALE_TRAIN_SM
+var INCOME_SM_TRAIN
+var INCOME_SM_CAR
+var INCOME_SM_SM
+var COST_L1
+var GA0_TC
+var AGE_TRAIN
+var LUGGAGE_CAR
+var MALE_SM
+var INCOME_CAR
+Optimization terminated successfully.
+         Current function value: 5190.340282
+         Iterations: 189
+         Function evaluations: 221
+         Gradient evaluations: 221
+Estimation time= 71.7 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.42564077 0.48013488 0.09422436]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM       -1.7426794227  0.4306817514 -4.0463275191       5.2e-05 ***
+_intercept.TRAIN     1.1903426946  0.5803192118  2.0511860894        0.0402 *  
+TIME_TRAIN          -0.0235430459  0.0015688300 -15.0067542016             0 ***
+TIME_CAR            -0.0323332789  0.0016189187 -19.9721451584             0 ***
+TIME_SM             -0.0174789213  0.0011267957 -15.5120586158             0 ***
+LUGGAGE_SM_TRAIN     0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_SM_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_SM_SM       -0.2415080073  0.1406684795 -1.7168594428         0.086 .  
+MALE_TRAIN_TRAIN    -1.8176938340  0.3537748387 -5.1379963616      2.78e-07 ***
+MALE_TRAIN_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_TRAIN_SM        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_TRAIN      0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_CAR        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_SM         0.2311577838  0.1104895546  2.0921234108        0.0364 *  
+COST_L1             -1.6615436856  0.1456542445 -11.4074511981             0 ***
+GA0_TC              -16.0173436733  2.9757904971 -5.3825508512      7.34e-08 ***
+AGE_TRAIN           -1.3160460984  0.1568702096 -8.3893946562             0 ***
+LUGGAGE_CAR         -67.1191097936  8.6932433666 -7.7208363971      1.15e-14 ***
+MALE_SM             -0.5698140346  0.2725641535 -2.0905685043        0.0366 *  
+INCOME_CAR          -0.3830569534  0.2064755621 -1.8552169055        0.0636 .  
+sd.COST_L1           4.1997751213  0.2243867968 18.7166766584             0 ***
+sd.GA0_TC            3.4764375556  0.7984280975  4.3541022248      1.34e-05 ***
+sd.AGE_TRAIN        -1.2011104473  0.0724871514 -16.5699772143             0 ***
+sd.LUGGAGE_CAR      54.0786342203  6.6594145120  8.1206289416      4.44e-16 ***
+sd.MALE_SM           2.0747670247  0.2779473793  7.4646036601      8.35e-14 ***
+sd.INCOME_CAR        3.0402797428  0.2822191027 10.7727638346             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5190.340
+AIC= 10432.681
+BIC= 10558.227
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_CAR']
+asvars_round2 for round 2 ['TIME_TRAIN', 'TIME_CAR', 'TIME_SM', 'MALE_TRAIN_TRAIN', 'INCOME_SM_SM', 'COST_L1', 'GA0_TC', 'AGE_TRAIN', 'LUGGAGE_CAR', 'MALE_SM']
+nsig_altspec_vars ['LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['TIME_TRAIN', 'TIME_CAR', 'TIME_SM', 'MALE_TRAIN_TRAIN', 'INCOME_SM_SM', 'COST_L1', 'GA0_TC', 'AGE_TRAIN', 'LUGGAGE_CAR', 'MALE_SM']
+rem_asvars = ['AGE_TRAIN', 'COST_L1', 'GA0_TC', 'INCOME_SM_SM', 'LUGGAGE_CAR', 'MALE_SM', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN']
+rem_rand_vars = {'COST_L1': 'n', 'GA0_TC': 'ln', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln', 'MALE_SM': 'u'}
+not same as round 1 model
+MXL model round 2
+var AGE_TRAIN
+var COST_L1
+var GA0_TC
+var INCOME_SM_SM
+var LUGGAGE_CAR
+var MALE_SM
+var MALE_TRAIN_TRAIN
+var TIME_CAR
+var TIME_SM
+var TIME_TRAIN
+Optimization terminated successfully.
+         Current function value: 5262.026635
+         Iterations: 141
+         Function evaluations: 160
+         Gradient evaluations: 160
+Estimation time= 44.8 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.39926868 0.49683602 0.10389529]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM       -0.2165369029  0.2291469774 -0.9449694923         0.345    
+_intercept.TRAIN     2.9488627771  0.3630002977  8.1235822553      4.44e-16 ***
+INCOME_SM_SM         0.1115386568  0.0772565070  1.4437444969         0.149    
+MALE_TRAIN_TRAIN    -1.7627184490  0.2507945799 -7.0285348655      2.09e-12 ***
+TIME_CAR            -0.0243997314  0.0010822448 -22.5454827601             0 ***
+TIME_SM             -0.0188506623  0.0013863469 -13.5973629076             0 ***
+TIME_TRAIN          -0.0268530625  0.0015069194 -17.8198395614             0 ***
+AGE_TRAIN           -1.2482484930  0.1104552114 -11.3009470312             0 ***
+COST_L1             -1.4485948860  0.1177860896 -12.2985226052             0 ***
+GA0_TC              -35.6682965485 388568.4319894846 -0.0000917941             1    
+LUGGAGE_CAR         -2.6791533700  0.2684071777 -9.9816755768             0 ***
+MALE_SM             -0.4555002522  0.1473721350 -3.0908166753         0.002 ** 
+sd.AGE_TRAIN         1.1908765148  0.0599994813 19.8481135053             0 ***
+sd.COST_L1           4.1435337526  0.1767095877 23.4482679028             0 ***
+sd.GA0_TC            1.0898712411 6313.3207132480  0.0001726304             1    
+sd.LUGGAGE_CAR      -2.1242169350  0.1064071462 -19.9631040813             0 ***
+sd.MALE_SM           2.9309808941  0.1578857844 18.5639315480             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5262.027
+AIC= 10558.053
+BIC= 10640.141
+None
+non_sig in round 2 ['_intercept.SM', 'INCOME_SM_SM', 'GA0_TC', 'sd.GA0_TC']
+solution consists insignificant coeffs
+non-sig coeffs are ['_intercept.SM', 'INCOME_SM_SM', 'GA0_TC', 'sd.GA0_TC']
+asvars_round2 for round 2 ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_SM', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN']
+nsig_altspec_vars ['INCOME_SM_SM']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_SM', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN']
+rem_asvars = ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_SM', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN']
+rem_rand_vars = {'COST_L1': 'n', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln', 'MALE_SM': 'u'}
+not same as round 1 model
+MXL model round 2
+var AGE_TRAIN
+var COST_L1
+var LUGGAGE_CAR
+var MALE_SM
+var MALE_TRAIN_TRAIN
+var TIME_CAR
+var TIME_SM
+var TIME_TRAIN
+Optimization terminated successfully.
+         Current function value: 5264.130604
+         Iterations: 77
+         Function evaluations: 93
+         Gradient evaluations: 93
+Estimation time= 24.0 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.39015029 0.50417044 0.10567927]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM       -0.0867867756  0.1968582256 -0.4408592798         0.659    
+_intercept.TRAIN     2.7397538789  0.4316241971  6.3475446858      2.19e-10 ***
+MALE_TRAIN_TRAIN    -1.4910897518  0.2908889608 -5.1259757246      2.96e-07 ***
+TIME_CAR            -0.0240947180  0.0012085093 -19.9375532063             0 ***
+TIME_SM             -0.0181849763  0.0015986737 -11.3750392526             0 ***
+TIME_TRAIN          -0.0271733014  0.0019607736 -13.8584592664             0 ***
+AGE_TRAIN           -1.2030634645  0.1559392607 -7.7149491376      1.22e-14 ***
+COST_L1             -1.3642282034  0.1128675462 -12.0869838098             0 ***
+LUGGAGE_CAR         -7.0112043610  1.0050184796 -6.9761944711      3.03e-12 ***
+MALE_SM             -0.3139012688  0.1624939337 -1.9317722307        0.0534 .  
+sd.AGE_TRAIN         1.1867421811  0.0847814648 13.9976607337             0 ***
+sd.COST_L1           4.0858363335  0.2116914180 19.3009068176             0 ***
+sd.LUGGAGE_CAR      -4.5013542376  0.4654628859 -9.6707049562             0 ***
+sd.MALE_SM           3.0180762330  0.2130803773 14.1640270772             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5264.131
+AIC= 10556.261
+BIC= 10623.863
+None
+non_sig in round 2 ['_intercept.SM', 'MALE_SM']
+solution consists insignificant coeffs
+non-sig coeffs are ['_intercept.SM', 'MALE_SM']
+asvars_round2 for round 2 ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN']
+nsig_altspec_vars []
+rem_asvars = ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN']
+rem_rand_vars = {'COST_L1': 'n', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln'}
+not same as round 1 model
+MXL model round 2
+var AGE_TRAIN
+var COST_L1
+var LUGGAGE_CAR
+var MALE_TRAIN_TRAIN
+var TIME_CAR
+var TIME_SM
+var TIME_TRAIN
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 5386.998338
+         Iterations: 61
+         Function evaluations: 71
+         Gradient evaluations: 71
+**** The optimization did not converge after 61 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 0.0005287327143221887
+**************************************************
+Estimation time= 17.1 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.37995567 0.51257169 0.10747263]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        0.2140148111  0.1321920007  1.6189694538         0.105    
+_intercept.TRAIN     3.4159176730  0.3753860618  9.0997456242             0 ***
+MALE_TRAIN_TRAIN    -1.1409280353  0.2491351107 -4.5795553741      4.66e-06 ***
+TIME_CAR            -0.0201942189  0.0009139346 -22.0959117530             0 ***
+TIME_SM             -0.0188044244  0.0011204400 -16.7830708276             0 ***
+TIME_TRAIN          -0.0243497902  0.0016172401 -15.0563856745             0 ***
+AGE_TRAIN           -1.5701676820  0.1338822805 -11.7279723325             0 ***
+COST_L1             -0.9192053002  0.1115282800 -8.2419033113      2.22e-16 ***
+LUGGAGE_CAR         -1.9815941703  0.2667106739 -7.4297520292      1.09e-13 ***
+sd.AGE_TRAIN         1.2793201824  0.0699485708 18.2894399003             0 ***
+sd.COST_L1           3.9354876794  0.1875305547 20.9858477994             0 ***
+sd.LUGGAGE_CAR       1.8135493276  0.1074262200 16.8818127246             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5386.998
+AIC= 10797.997
+BIC= 10855.941
+None
+convergence not reached in round 2 so final sol is from round 1
+solution at current iteration [10623.86317636561, ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN'], [], {'COST_L1': 'n', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln'}, [], [], True] True
+unique_opp_HM is for iteration 4 is [[10623.86317636561, ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN'], [], {'COST_L1': 'n', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln'}, [], [], True], [11889.26237600043, ['AGE_SM', 'FIRST_SM_SM', 'MALE_SM', 'TIME_L2'], [], {'TIME_L2': 't', 'MALE_SM': 'n'}, [], [], True], [13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False]]
+features for round 1 ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'] [] {'FIRST_SM': 'ln'} [] [] False
+estimating an MXL model
+var TIME_L1_TRAIN
+var TIME_L1_CAR
+var TIME_L1_SM
+var COST_L2_TRAIN
+var COST_L2_CAR
+var COST_L2_SM
+var HEADWAY_L2_TRAIN
+var HEADWAY_L2_CAR
+var HEADWAY_L2_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var GA0_TC_TRAIN
+var GA0_TC_CAR
+var GA0_TC_SM
+var AGE_CAR_TRAIN
+var AGE_CAR_CAR
+var AGE_CAR_SM
+var AGE_SM_TRAIN
+var AGE_SM_CAR
+var AGE_SM_SM
+var LUGGAGE_CAR_TRAIN
+var LUGGAGE_CAR_CAR
+var LUGGAGE_CAR_SM
+var MALE_TRAIN_TRAIN
+var MALE_TRAIN_CAR
+var MALE_TRAIN_SM
+var INCOME_SM_TRAIN
+var INCOME_SM_CAR
+var INCOME_SM_SM
+var LUGGAGE_TRAIN
+var FIRST_SM
+Optimization terminated successfully.
+         Current function value: 6842.926813
+         Iterations: 59
+         Function evaluations: 79
+         Gradient evaluations: 79
+Estimation time= 22.4 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.29413143 0.57081058 0.135058  ]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+TIME_L1_TRAIN       -0.0253657902  0.0410425762 -0.6180360144         0.537    
+TIME_L1_CAR          0.2471531407  0.0344215440  7.1801875263      6.96e-13 ***
+TIME_L1_SM           0.2413631180  0.0353867249  6.8207249689      9.06e-12 ***
+COST_L2_TRAIN        0.0209776121  0.0013515531 15.5211159509             0 ***
+COST_L2_CAR          0.0063693105  0.0077348041  0.8234611280          0.41    
+COST_L2_SM           0.0065499941  0.0010953859  5.9796225766      2.24e-09 ***
+HEADWAY_L2_TRAIN    -0.0440228506  0.0080962486 -5.4374381239      5.41e-08 ***
+HEADWAY_L2_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_L2_SM        0.0273171654  0.0123746811  2.2075045903        0.0273 *  
+SEATS_TRAIN          0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_CAR            0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_SM             0.2562471831  0.0886805043  2.8895548717       0.00386 ** 
+GA0_TC_TRAIN        -0.0055051552  0.0007529062 -7.3118738842      2.63e-13 ***
+GA0_TC_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+GA0_TC_SM            0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_CAR_TRAIN        0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_CAR_CAR         -0.2302837743  0.0378737813 -6.0802952901       1.2e-09 ***
+AGE_CAR_SM           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_TRAIN         0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_SM           -0.3761475126  0.0342028453 -10.9975503412             0 ***
+LUGGAGE_CAR_TRAIN    0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_CAR_CAR     -0.3871835276  0.0535558620 -7.2295265695      4.85e-13 ***
+LUGGAGE_CAR_SM       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_TRAIN_TRAIN    -0.5407973994  0.0783503548 -6.9022967548      5.12e-12 ***
+MALE_TRAIN_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_TRAIN_SM        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_TRAIN      0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_CAR        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_SM         0.1358255461  0.0302798074  4.4856806530      7.27e-06 ***
+LUGGAGE_TRAIN        0.2378134955  0.0597319111  3.9813475093      6.85e-05 ***
+FIRST_SM            -3.6009237537  0.8830104603 -4.0780080369      4.54e-05 ***
+sd.FIRST_SM          5.8276771696  1.1542818229  5.0487472416      4.45e-07 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -6842.927
+AIC= 13751.854
+BIC= 13911.201
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['TIME_L1_TRAIN', 'COST_L2_CAR', 'HEADWAY_L2_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR']
+asvars_round2 for round 2 ['TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_SM', 'SEATS_SM', 'GA0_TC_TRAIN', 'AGE_CAR_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_CAR', 'MALE_TRAIN_TRAIN', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM']
+nsig_altspec_vars ['TIME_L1_TRAIN', 'COST_L2_CAR', 'HEADWAY_L2_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'TIME_L1_TRAIN', 'COST_L2_CAR', 'HEADWAY_L2_CAR']
+redund_vars for round 2 ['TIME', 'COST', 'HEADWAY', 'SEATS']
+asvars_round2 before removing redundancy ['TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_SM', 'SEATS_SM', 'GA0_TC_TRAIN', 'AGE_CAR_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_CAR', 'MALE_TRAIN_TRAIN', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM']
+rem_asvars = ['AGE_CAR_CAR', 'AGE_SM_SM', 'COST_L2_SM', 'COST_L2_TRAIN', 'FIRST_SM', 'GA0_TC_TRAIN', 'HEADWAY_L2_SM', 'HEADWAY_L2_TRAIN', 'INCOME_SM_SM', 'LUGGAGE_CAR_CAR', 'LUGGAGE_TRAIN', 'MALE_TRAIN_TRAIN', 'SEATS_SM', 'TIME_L1_CAR', 'TIME_L1_SM']
+rem_rand_vars = {'FIRST_SM': 'ln'}
+not same as round 1 model
+MXL model round 2
+var AGE_CAR_CAR
+var AGE_SM_SM
+var COST_L2_SM
+var COST_L2_TRAIN
+var FIRST_SM
+var GA0_TC_TRAIN
+var HEADWAY_L2_SM
+var HEADWAY_L2_TRAIN
+var INCOME_SM_SM
+var LUGGAGE_CAR_CAR
+var LUGGAGE_TRAIN
+var MALE_TRAIN_TRAIN
+var SEATS_SM
+var TIME_L1_CAR
+var TIME_L1_SM
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 6843.463746
+         Iterations: 66
+         Function evaluations: 88
+         Gradient evaluations: 88
+**** The optimization did not converge after 66 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 0.0001126216714926187
+**************************************************
+Estimation time= 19.6 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.29384137 0.57081049 0.13534814]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+AGE_CAR_CAR         -0.2202449308  0.0346858251 -6.3497100084      2.16e-10 ***
+AGE_SM_SM           -0.3693567846  0.0324828591 -11.3708212356             0 ***
+COST_L2_SM           0.0064766495  0.0011901838  5.4417222288      5.28e-08 ***
+COST_L2_TRAIN        0.0207050403  0.0014163837 14.6182419887             0 ***
+GA0_TC_TRAIN        -0.0057067762  0.0007510109 -7.5987925649         3e-14 ***
+HEADWAY_L2_SM        0.0285644056  0.0119522026  2.3898863331        0.0169 *  
+HEADWAY_L2_TRAIN    -0.0461532308  0.0071381611 -6.4657031536      1.01e-10 ***
+INCOME_SM_SM         0.1369012495  0.0290306628  4.7157465981      2.41e-06 ***
+LUGGAGE_CAR_CAR     -0.3836075182  0.0557828183 -6.8768041862      6.12e-12 ***
+LUGGAGE_TRAIN        0.2299085988  0.0611963430  3.7569009426      0.000172 ***
+MALE_TRAIN_TRAIN    -0.5512040622  0.0774208327 -7.1195832285      1.08e-12 ***
+SEATS_SM             0.2644482664  0.0841247876  3.1435237335       0.00167 ** 
+TIME_L1_CAR          0.2743818225  0.0209146008 13.1191518054             0 ***
+TIME_L1_SM           0.2480168761  0.0322904622  7.6808091018      1.58e-14 ***
+FIRST_SM            -3.6800243231  0.9025058282 -4.0775629452      4.55e-05 ***
+sd.FIRST_SM          5.9140491809  1.1909417314  4.9658593908      6.84e-07 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -6843.464
+AIC= 13718.927
+BIC= 13796.187
+None
+convergence not reached in round 2 so final sol is from round 1
+solution at current iteration [13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False] True
+harmony memory for iteration 5 is [[11564.453984286274, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_CAR', 'HEADWAY_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'LUGGAGE_TRAIN_TRAIN', 'LUGGAGE_TRAIN_CAR', 'LUGGAGE_TRAIN_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_SM_SM', 'MALE_CAR_TRAIN', 'MALE_CAR_CAR', 'MALE_CAR_SM', 'AGE_SM', 'LUGGAGE_SM', 'INCOME_TRAIN', 'INCOME_CAR'], [], {'AGE_SM': 'ln', 'LUGGAGE_SM': 'u', 'INCOME_CAR': 'ln'}, [], [], True], [13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_TRAIN', 'HEADWAY_CAR', 'HEADWAY_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'TIME_L2', 'GA0_TC', 'MALE_CAR', 'INCOME_TRAIN'] [] {'TIME_L2': 't', 'GA0_TC': 't', 'MALE_CAR': 't', 'INCOME_TRAIN': 'n'} [] [] False False False
+features for round 1 ['COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_TRAIN', 'HEADWAY_CAR', 'HEADWAY_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'TIME_L2', 'GA0_TC', 'MALE_CAR', 'INCOME_TRAIN'] [] {'TIME_L2': 't', 'GA0_TC': 't', 'MALE_CAR': 't', 'INCOME_TRAIN': 'n'} [] [] False
+estimating an MXL model
+var COST_L2_TRAIN
+var COST_L2_CAR
+var COST_L2_SM
+var HEADWAY_TRAIN
+var HEADWAY_CAR
+var HEADWAY_SM
+var AGE_CAR_TRAIN
+var AGE_CAR_CAR
+var AGE_CAR_SM
+var AGE_SM_TRAIN
+var AGE_SM_CAR
+var AGE_SM_SM
+var LUGGAGE_CAR_TRAIN
+var LUGGAGE_CAR_CAR
+var LUGGAGE_CAR_SM
+var TIME_L2
+var GA0_TC
+var MALE_CAR
+var INCOME_TRAIN
+Optimization terminated successfully.
+         Current function value: 5373.275098
+         Iterations: 94
+         Function evaluations: 113
+         Gradient evaluations: 113
+Estimation time= 32.5 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.38998125 0.49817715 0.1118416 ]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+COST_L2_TRAIN       -0.0027215060  0.0038713417 -0.7029878131         0.482    
+COST_L2_CAR          0.0180385743  0.0102091948  1.7668949029        0.0772 .  
+COST_L2_SM           0.0018534596  0.0027234035  0.6805673937         0.496    
+HEADWAY_TRAIN       -0.0112437594  0.0013101940 -8.5817514784             0 ***
+HEADWAY_CAR          0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_SM          -0.0131450859  0.0032312633 -4.0680949004      4.74e-05 ***
+AGE_CAR_TRAIN        0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_CAR_CAR         -0.5458605024  0.0881947780 -6.1892610295      6.04e-10 ***
+AGE_CAR_SM           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_TRAIN         0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_SM           -0.5933309116  0.0808343699 -7.3400820973      2.13e-13 ***
+LUGGAGE_CAR_TRAIN    0.1000000000  1.0000000000  0.1000000000          0.92    
+LUGGAGE_CAR_CAR     -1.1170833597  0.1117000804 -10.0007390868             0 ***
+LUGGAGE_CAR_SM       0.1000000000  1.0000000000  0.1000000000          0.92    
+TIME_L2             -0.2959281940  0.0167656256 -17.6508889054             0 ***
+GA0_TC              -0.0385136314  0.0042352189 -9.0936577574             0 ***
+MALE_CAR             0.0434199617  0.1763651120  0.2461935992         0.806    
+INCOME_TRAIN        -0.4588249241  0.1069254180 -4.2910744031      1.78e-05 ***
+sd.TIME_L2           0.9531980262  0.0442029121 21.5641454506             0 ***
+sd.GA0_TC            0.0740019063  0.0066573282 11.1158566174             0 ***
+sd.MALE_CAR          7.3629809145  0.5023974388 14.6556895917             0 ***
+sd.INCOME_TRAIN     -0.7672038877  0.0616757650 -12.4393088141             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5373.275
+AIC= 10792.550
+BIC= 10903.611
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_CAR', 'AGE_CAR_TRAIN', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_SM', 'MALE_CAR']
+asvars_round2 for round 2 ['HEADWAY_TRAIN', 'HEADWAY_SM', 'AGE_CAR_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_CAR', 'TIME_L2', 'GA0_TC', 'INCOME_TRAIN']
+nsig_altspec_vars ['COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_CAR', 'AGE_CAR_TRAIN', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM']
+redund_vars for round 2 ['HEADWAY']
+asvars_round2 before removing redundancy ['HEADWAY_TRAIN', 'HEADWAY_SM', 'AGE_CAR_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_CAR', 'TIME_L2', 'GA0_TC', 'INCOME_TRAIN', 'COST']
+rem_asvars = ['AGE_CAR_CAR', 'AGE_SM_SM', 'COST', 'GA0_TC', 'HEADWAY_SM', 'HEADWAY_TRAIN', 'INCOME_TRAIN', 'LUGGAGE_CAR_CAR', 'TIME_L2']
+rem_rand_vars = {'TIME_L2': 't', 'GA0_TC': 't', 'INCOME_TRAIN': 'n'}
+not same as round 1 model
+MXL model round 2
+var AGE_CAR_CAR
+var AGE_SM_SM
+var COST
+var GA0_TC
+var HEADWAY_SM
+var HEADWAY_TRAIN
+var INCOME_TRAIN
+var LUGGAGE_CAR_CAR
+var TIME_L2
+Optimization terminated successfully.
+         Current function value: 5687.215449
+         Iterations: 55
+         Function evaluations: 78
+         Gradient evaluations: 78
+Estimation time= 19.0 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.40199528 0.4834105  0.11459422]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+AGE_CAR_CAR         -0.4602033635  0.0820112955 -5.6114631618      2.01e-08 ***
+AGE_SM_SM           -0.6067096580  0.0816381680 -7.4316912399      1.07e-13 ***
+COST                 0.0002994628  0.0000368930  8.1170711271      4.44e-16 ***
+HEADWAY_SM          -0.0107151295  0.0028538456 -3.7546283090      0.000174 ***
+HEADWAY_TRAIN       -0.0113880856  0.0013041782 -8.7320013208             0 ***
+LUGGAGE_CAR_CAR     -0.6260461892  0.0715189551 -8.7535701370             0 ***
+GA0_TC              -0.0449831362  0.0038301104 -11.7446057481             0 ***
+INCOME_TRAIN        -0.7386189213  0.1351695814 -5.4643871314      4.65e-08 ***
+TIME_L2             -0.1966776154  0.0133512045 -14.7310765071             0 ***
+sd.GA0_TC           -0.0651219127  0.0056756754 -11.4738614469             0 ***
+sd.INCOME_TRAIN     -1.1799269700  0.0700644688 -16.8405896792             0 ***
+sd.TIME_L2           0.8730781560  0.0359509926 24.2852308569             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5687.215
+AIC= 11398.431
+BIC= 11456.375
+None
+non_sig in round 2 []
+non-significant terms cannot be further eliminated
+solution at current iteration [11456.375443250883, ['AGE_CAR_CAR', 'AGE_SM_SM', 'COST', 'GA0_TC', 'HEADWAY_SM', 'HEADWAY_TRAIN', 'INCOME_TRAIN', 'LUGGAGE_CAR_CAR', 'TIME_L2'], [], {'TIME_L2': 't', 'GA0_TC': 't', 'INCOME_TRAIN': 'n'}, [], [], False] True
+unique_opp_HM is for iteration 5 is [[10623.86317636561, ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN'], [], {'COST_L1': 'n', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln'}, [], [], True], [11456.375443250883, ['AGE_CAR_CAR', 'AGE_SM_SM', 'COST', 'GA0_TC', 'HEADWAY_SM', 'HEADWAY_TRAIN', 'INCOME_TRAIN', 'LUGGAGE_CAR_CAR', 'TIME_L2'], [], {'TIME_L2': 't', 'GA0_TC': 't', 'INCOME_TRAIN': 'n'}, [], [], False], [11889.26237600043, ['AGE_SM', 'FIRST_SM_SM', 'MALE_SM', 'TIME_L2'], [], {'TIME_L2': 't', 'MALE_SM': 'n'}, [], [], True], [13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False]]
+features for round 1 ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'MALE_SM_TRAIN', 'MALE_SM_CAR', 'MALE_SM_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'COST_L2', 'HEADWAY_L1', 'AGE_SM', 'LUGGAGE_TRAIN', 'LUGGAGE_CAR'] [] {'COST_L2': 't', 'AGE_SM': 't', 'LUGGAGE_TRAIN': 'ln'} ['AGE_SM', 'LUGGAGE_TRAIN', 'COST_L2'] [] True
+estimating an MXL model
+var TIME_L1_TRAIN
+var TIME_L1_CAR
+var TIME_L1_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var LUGGAGE_SM_TRAIN
+var LUGGAGE_SM_CAR
+var LUGGAGE_SM_SM
+var MALE_SM_TRAIN
+var MALE_SM_CAR
+var MALE_SM_SM
+var MALE_TRAIN_TRAIN
+var MALE_TRAIN_CAR
+var MALE_TRAIN_SM
+var COST_L2
+var HEADWAY_L1
+var AGE_SM
+var LUGGAGE_TRAIN
+var LUGGAGE_CAR
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+estimating opposite harmony memory
+opp sol features ['TIME_TRAIN', 'TIME_CAR', 'TIME_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'INCOME_TRAIN_TRAIN', 'INCOME_TRAIN_CAR', 'INCOME_TRAIN_SM', 'COST_L2', 'HEADWAY_L2', 'GA0_TC', 'MALE_SM', 'MALE_TRAIN'] [] {'COST_L2': 't', 'HEADWAY_L2': 'n', 'GA0_TC': 'ln', 'MALE_SM': 't', 'MALE_TRAIN': 'n'} ['GA0_TC', 'MALE_SM'] [] True False False
+features for round 1 ['TIME_TRAIN', 'TIME_CAR', 'TIME_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_SM_TRAIN', 'LUGGAGE_SM_CAR', 'LUGGAGE_SM_SM', 'INCOME_TRAIN_TRAIN', 'INCOME_TRAIN_CAR', 'INCOME_TRAIN_SM', 'COST_L2', 'HEADWAY_L2', 'GA0_TC', 'MALE_SM', 'MALE_TRAIN'] [] {'COST_L2': 't', 'HEADWAY_L2': 'n', 'GA0_TC': 'ln', 'MALE_SM': 't', 'MALE_TRAIN': 'n'} ['GA0_TC', 'MALE_SM'] [] False
+estimating an MXL model
+var TIME_TRAIN
+var TIME_CAR
+var TIME_SM
+var AGE_CAR_TRAIN
+var AGE_CAR_CAR
+var AGE_CAR_SM
+var AGE_SM_TRAIN
+var AGE_SM_CAR
+var AGE_SM_SM
+var LUGGAGE_SM_TRAIN
+var LUGGAGE_SM_CAR
+var LUGGAGE_SM_SM
+var INCOME_TRAIN_TRAIN
+var INCOME_TRAIN_CAR
+var INCOME_TRAIN_SM
+var COST_L2
+var HEADWAY_L2
+var GA0_TC
+var MALE_SM
+var MALE_TRAIN
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+features for round 1 ['HEADWAY_TRAIN', 'HEADWAY_CAR', 'HEADWAY_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'FIRST_SM_TRAIN', 'FIRST_SM_CAR', 'FIRST_SM_SM', 'MALE_CAR_TRAIN', 'MALE_CAR_CAR', 'MALE_CAR_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'COST_L1', 'LUGGAGE_TRAIN', 'MALE_SM', 'MALE_TRAIN', 'INCOME_TRAIN'] [] {'COST_L1': 'u', 'LUGGAGE_TRAIN': 'u', 'MALE_SM': 'ln', 'INCOME_TRAIN': 'n'} [] [] True
+estimating an MXL model
+var HEADWAY_TRAIN
+var HEADWAY_CAR
+var HEADWAY_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var GA0_TC_TRAIN
+var GA0_TC_CAR
+var GA0_TC_SM
+var AGE_SM_TRAIN
+var AGE_SM_CAR
+var AGE_SM_SM
+var FIRST_SM_TRAIN
+var FIRST_SM_CAR
+var FIRST_SM_SM
+var MALE_CAR_TRAIN
+var MALE_CAR_CAR
+var MALE_CAR_SM
+var INCOME_SM_TRAIN
+var INCOME_SM_CAR
+var INCOME_SM_SM
+var COST_L1
+var LUGGAGE_TRAIN
+var MALE_SM
+var MALE_TRAIN
+var INCOME_TRAIN
+Warning: Maximum number of iterations has been exceeded.
+         Current function value: 5541.615669
+         Iterations: 200
+         Function evaluations: 241
+         Gradient evaluations: 241
+**** The optimization did not converge after 200 iterations. ****
+Message: Maximum number of iterations has been exceeded.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 13.79062797925133
+**************************************************
+Estimation time= 77.8 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.39294091 0.49100004 0.11605905]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        1.4915170196  0.2357658997  6.3262627095      2.51e-10 ***
+_intercept.TRAIN     1.6119848137  0.3345740173  4.8180215144      1.45e-06 ***
+HEADWAY_TRAIN       -0.0112988576  0.0014128346 -7.9972969610      1.33e-15 ***
+HEADWAY_CAR          0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_SM          -0.0138807710  0.0035973347 -3.8586265471      0.000114 ***
+SEATS_TRAIN          0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_CAR            0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_SM            -0.0754306788  0.1162199384 -0.6490338905         0.516    
+GA0_TC_TRAIN        -0.0133424394  0.0011313328 -11.7935583531             0 ***
+GA0_TC_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+GA0_TC_SM            0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_TRAIN         0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+AGE_SM_SM           -0.2784530486  0.0532945928 -5.2247898666      1.74e-07 ***
+FIRST_SM_TRAIN       0.1000000000  1.0000000000  0.1000000000          0.92    
+FIRST_SM_CAR         0.1000000000  1.0000000000  0.1000000000          0.92    
+FIRST_SM_SM          0.6292669314  0.1183135008  5.3186401120      1.05e-07 ***
+MALE_CAR_TRAIN       0.1000000000  1.0000000000  0.1000000000          0.92    
+MALE_CAR_CAR        30.8316947454  7.7438829896  3.9814256991      6.85e-05 ***
+MALE_CAR_SM          0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_TRAIN      0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_CAR        0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_SM_SM         0.1879306891  0.0762467798  2.4647688684        0.0137 *  
+MALE_TRAIN          29.7955490868  7.7571329983  3.8410517254      0.000123 ***
+COST_L1             -1.4217070229  0.1066314309 -13.3329076726             0 ***
+LUGGAGE_TRAIN        1.2281344553  0.1779140780  6.9029638849      5.09e-12 ***
+MALE_SM              3.4235655077  0.2538222063 13.4880456583             0 ***
+INCOME_TRAIN        -1.3071293346  0.1450643258 -9.0106876857             0 ***
+sd.COST_L1           5.0564868769  0.2116466041 23.8911788698             0 ***
+sd.LUGGAGE_TRAIN    -0.8186764708  0.2995846524 -2.7327049769       0.00628 ** 
+sd.MALE_SM           0.0567915189  0.0145817442  3.8946999989      9.83e-05 ***
+sd.INCOME_TRAIN      1.4231469810  0.0721402495 19.7275029052             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5541.616
+AIC= 11147.231
+BIC= 11301.750
+None
+convergence not reached in round 1
+solution at current iteration [10000000.0, [], [], {}, [], [], False] False
+estimating opposite harmony memory
+opp sol features ['COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_CAR', 'HEADWAY_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'INCOME_TRAIN_TRAIN', 'INCOME_TRAIN_CAR', 'INCOME_TRAIN_SM', 'TIME_L2', 'LUGGAGE_TRAIN', 'LUGGAGE_CAR', 'FIRST_SM'] [] {'TIME_L2': 'u', 'LUGGAGE_TRAIN': 'u', 'LUGGAGE_CAR': 't'} [] [] False False True
+features for round 1 ['COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_CAR', 'HEADWAY_L1_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'INCOME_TRAIN_TRAIN', 'INCOME_TRAIN_CAR', 'INCOME_TRAIN_SM', 'TIME_L2', 'LUGGAGE_TRAIN', 'LUGGAGE_CAR', 'FIRST_SM'] [] {'TIME_L2': 'u', 'LUGGAGE_TRAIN': 'u', 'LUGGAGE_CAR': 't'} [] [] True
+estimating an MXL model
+var COST_L1_TRAIN
+var COST_L1_CAR
+var COST_L1_SM
+var HEADWAY_L1_TRAIN
+var HEADWAY_L1_CAR
+var HEADWAY_L1_SM
+var SEATS_TRAIN
+var SEATS_CAR
+var SEATS_SM
+var GA0_TC_TRAIN
+var GA0_TC_CAR
+var GA0_TC_SM
+var INCOME_TRAIN_TRAIN
+var INCOME_TRAIN_CAR
+var INCOME_TRAIN_SM
+var TIME_L2
+var LUGGAGE_TRAIN
+var LUGGAGE_CAR
+var FIRST_SM
+Optimization terminated successfully.
+         Current function value: 5287.633592
+         Iterations: 81
+         Function evaluations: 115
+         Gradient evaluations: 115
+Estimation time= 32.3 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.34653044 0.54001971 0.11344985]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        7.0718602134  0.5706475923 12.3926926326             0 ***
+_intercept.TRAIN     8.0424863022  0.6640455707 12.1113469573             0 ***
+COST_L1_TRAIN       -0.8236723421  0.1057595237 -7.7881623658      6.88e-15 ***
+COST_L1_CAR          0.6298741994  0.0866879245  7.2659969997       3.7e-13 ***
+COST_L1_SM          -0.9519815449  0.0977979233 -9.7341693227             0 ***
+HEADWAY_L1_TRAIN    -0.6208071463  0.0930210534 -6.6738348342      2.49e-11 ***
+HEADWAY_L1_CAR       0.1000000000  1.0000000000  0.1000000000          0.92    
+HEADWAY_L1_SM       -0.2611064094  0.0757413862 -3.4473413084      0.000566 ***
+SEATS_TRAIN          0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_CAR            0.1000000000  1.0000000000  0.1000000000          0.92    
+SEATS_SM            -0.2240001078  0.1330919329 -1.6830479726        0.0924 .  
+GA0_TC_TRAIN        -0.0078940751  0.0012953558 -6.0941363042       1.1e-09 ***
+GA0_TC_CAR           0.1000000000  1.0000000000  0.1000000000          0.92    
+GA0_TC_SM            0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_TRAIN_TRAIN  -0.1261332409  0.0785818792 -1.6051186624         0.108    
+INCOME_TRAIN_CAR     0.1000000000  1.0000000000  0.1000000000          0.92    
+INCOME_TRAIN_SM      0.1000000000  1.0000000000  0.1000000000          0.92    
+FIRST_SM             0.0005724126  0.1364129614  0.0041961743         0.997    
+TIME_L2             -0.3543816236  0.0204914630 -17.2941104061             0 ***
+LUGGAGE_TRAIN        0.1764726305  0.1695714127  1.0406980028         0.298    
+LUGGAGE_CAR         -3.6468932999  0.4330836757 -8.4207590916             0 ***
+sd.TIME_L2           0.5453726327  0.0289795654 18.8192136745             0 ***
+sd.LUGGAGE_TRAIN     2.7299609325  0.2611622802 10.4531210634             0 ***
+sd.LUGGAGE_CAR      13.6628488790  0.9436441889 14.4788141969             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5287.634
+AIC= 10623.267
+BIC= 10739.156
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['HEADWAY_L1_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_CAR', 'GA0_TC_SM', 'INCOME_TRAIN_TRAIN', 'INCOME_TRAIN_CAR', 'INCOME_TRAIN_SM', 'FIRST_SM', 'LUGGAGE_TRAIN']
+asvars_round2 for round 2 ['COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_SM', 'GA0_TC_TRAIN', 'TIME_L2', 'LUGGAGE_CAR']
+nsig_altspec_vars ['HEADWAY_L1_CAR', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_CAR', 'GA0_TC_SM', 'INCOME_TRAIN_TRAIN', 'INCOME_TRAIN_CAR', 'INCOME_TRAIN_SM', 'HEADWAY_L1_CAR']
+redund_vars for round 2 ['HEADWAY']
+asvars_round2 before removing redundancy ['COST_L1_TRAIN', 'COST_L1_CAR', 'COST_L1_SM', 'HEADWAY_L1_TRAIN', 'HEADWAY_L1_SM', 'GA0_TC_TRAIN', 'TIME_L2', 'LUGGAGE_CAR', 'SEATS']
+rem_asvars = ['COST_L1_CAR', 'COST_L1_SM', 'COST_L1_TRAIN', 'GA0_TC_TRAIN', 'HEADWAY_L1_SM', 'HEADWAY_L1_TRAIN', 'LUGGAGE_CAR', 'SEATS', 'TIME_L2']
+rem_rand_vars = {'TIME_L2': 'u', 'LUGGAGE_CAR': 't'}
+not same as round 1 model
+MXL model round 2
+var COST_L1_CAR
+var COST_L1_SM
+var COST_L1_TRAIN
+var GA0_TC_TRAIN
+var HEADWAY_L1_SM
+var HEADWAY_L1_TRAIN
+var LUGGAGE_CAR
+var SEATS
+var TIME_L2
+Optimization terminated successfully.
+         Current function value: 5334.162497
+         Iterations: 81
+         Function evaluations: 101
+         Gradient evaluations: 101
+Estimation time= 24.3 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.35453573 0.53151925 0.11394501]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM        7.3903693738  0.5512165567 13.4073791583             0 ***
+_intercept.TRAIN     8.1159312663  0.6308108898 12.8658705763             0 ***
+COST_L1_CAR          0.6123748329  0.0830118793  7.3769542137      1.62e-13 ***
+COST_L1_SM          -1.0775142386  0.0971751084 -11.0883770204             0 ***
+COST_L1_TRAIN       -0.9626688600  0.1036963732 -9.2835345156             0 ***
+GA0_TC_TRAIN        -0.0058434625  0.0008928368 -6.5448271029      5.96e-11 ***
+HEADWAY_L1_SM       -0.2593310662  0.0685887087 -3.7809585727      0.000156 ***
+HEADWAY_L1_TRAIN    -0.5649259660  0.0789682355 -7.1538380311      8.44e-13 ***
+SEATS               -0.3199741101  0.1153078739 -2.7749545571       0.00552 ** 
+LUGGAGE_CAR         -4.1132980772  0.4899861127 -8.3947237904             0 ***
+TIME_L2             -0.3809075852  0.0193795970 -19.6550828509             0 ***
+sd.LUGGAGE_CAR      14.9722581462  1.1885493532 12.5970857713             0 ***
+sd.TIME_L2           0.6413068530  0.0240704703 26.6428883631             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5334.162
+AIC= 10694.325
+BIC= 10757.098
+None
+non_sig in round 2 []
+non-significant terms cannot be further eliminated
+solution at current iteration [10757.098250241996, ['COST_L1_CAR', 'COST_L1_SM', 'COST_L1_TRAIN', 'GA0_TC_TRAIN', 'HEADWAY_L1_SM', 'HEADWAY_L1_TRAIN', 'LUGGAGE_CAR', 'SEATS', 'TIME_L2'], [], {'TIME_L2': 'u', 'LUGGAGE_CAR': 't'}, [], [], True] True
+unique_opp_HM is for iteration 7 is [[10623.86317636561, ['AGE_TRAIN', 'COST_L1', 'LUGGAGE_CAR', 'MALE_TRAIN_TRAIN', 'TIME_CAR', 'TIME_SM', 'TIME_TRAIN'], [], {'COST_L1': 'n', 'AGE_TRAIN': 'n', 'LUGGAGE_CAR': 'ln'}, [], [], True], [10757.098250241996, ['COST_L1_CAR', 'COST_L1_SM', 'COST_L1_TRAIN', 'GA0_TC_TRAIN', 'HEADWAY_L1_SM', 'HEADWAY_L1_TRAIN', 'LUGGAGE_CAR', 'SEATS', 'TIME_L2'], [], {'TIME_L2': 'u', 'LUGGAGE_CAR': 't'}, [], [], True], [11456.375443250883, ['AGE_CAR_CAR', 'AGE_SM_SM', 'COST', 'GA0_TC', 'HEADWAY_SM', 'HEADWAY_TRAIN', 'INCOME_TRAIN', 'LUGGAGE_CAR_CAR', 'TIME_L2'], [], {'TIME_L2': 't', 'GA0_TC': 't', 'INCOME_TRAIN': 'n'}, [], [], False], [11889.26237600043, ['AGE_SM', 'FIRST_SM_SM', 'MALE_SM', 'TIME_L2'], [], {'TIME_L2': 't', 'MALE_SM': 'n'}, [], [], True], [13911.201123835124, ['TIME_L1_TRAIN', 'TIME_L1_CAR', 'TIME_L1_SM', 'COST_L2_TRAIN', 'COST_L2_CAR', 'COST_L2_SM', 'HEADWAY_L2_TRAIN', 'HEADWAY_L2_CAR', 'HEADWAY_L2_SM', 'SEATS_TRAIN', 'SEATS_CAR', 'SEATS_SM', 'GA0_TC_TRAIN', 'GA0_TC_CAR', 'GA0_TC_SM', 'AGE_CAR_TRAIN', 'AGE_CAR_CAR', 'AGE_CAR_SM', 'AGE_SM_TRAIN', 'AGE_SM_CAR', 'AGE_SM_SM', 'LUGGAGE_CAR_TRAIN', 'LUGGAGE_CAR_CAR', 'LUGGAGE_CAR_SM', 'MALE_TRAIN_TRAIN', 'MALE_TRAIN_CAR', 'MALE_TRAIN_SM', 'INCOME_SM_TRAIN', 'INCOME_SM_CAR', 'INCOME_SM_SM', 'LUGGAGE_TRAIN', 'FIRST_SM'], [], {'FIRST_SM': 'ln'}, [], [], False]]
