@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Beeramoole"
+  given-names: "Prithvi Bhat"
+- family-names: "Alexander"
+  given-names: "Paz"
+- family-names: "Arteaga"
+  given-names: "Cristian"
+- family-names: "Haque"
+  given-names: "Md. Mazharul"
+- family-names: "Pinz"
+  given-names: "Alban"
+title: "Software and experiment results: Extended hypothesistesting during the estimation of mixed Logit models"
+date-released: 18 March 2022
+url: "https://github.com/PrithviBhatB/Extended-hypothesis-testing-during-the-estimation-of-mixed-Logit-models-"
+
+
+
