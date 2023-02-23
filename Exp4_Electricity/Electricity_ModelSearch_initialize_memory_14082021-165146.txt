@@ -1,0 +1,684 @@
+features for round 1 ['pfl3', 'cll1', 'wk'] [] {'pfl3': 'tn', 'cll1': 'tn', 'wk': 'tn'} [] ['pfl3', 'cll1'] True
+estimating an MXL model
+self.correlationpos [1, 2]
+uncorrelatedpos [0, 3]
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 5865.102054
+         Iterations: 17
+         Function evaluations: 94
+         Gradient evaluations: 82
+**** The optimization did not converge after 17 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 145.07870279637115
+**************************************************
+Estimation time= 44.4 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.23192345 0.25330032 0.24859723 0.26063883]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.2         0.1752647521  0.0397658816  4.4074152312      1.38e-05 ***
+_intercept.3         0.1844333075  0.0442947581  4.1637727715      3.92e-05 ***
+_intercept.4         0.1944077356  0.0434741380  4.4718019579      1.04e-05 ***
+pfl3                -0.5089328419  0.1067505698 -4.7674953201      2.71e-06 ***
+cll1                -0.6295230501  0.0982921637 -6.4046107715       4.7e-10 ***
+wk                   0.1455057623  0.0513416229  2.8340701750       0.00485 ** 
+chol.pfl3.pfl3       0.4509359081  0.7080914989  0.6368328230         0.525    
+chol.cll1.pfl3       0.5474049848  0.1482692845  3.6919648374      0.000257 ***
+chol.cll1.cll1      -0.6643525030  0.1807636216 -3.6752555470      0.000274 ***
+sd.wk                0.4509359081  0.7080914989  0.6368328230         0.525    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5865.102
+AIC= 11750.204
+BIC= 11789.093
+None
+convergence not reached in round 1
+estimating opposite harmony memory
+opp sol features ['tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'pfl1', 'cll1', 'wk'] [] {'pfl1': 'ln', 'cll1': 't'} [] [] False False False
+features for round 1 ['tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'pfl1', 'cll1', 'wk'] [] {'pfl1': 'ln', 'cll1': 't'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Optimization terminated successfully.
+         Current function value: 5412.512749
+         Iterations: 20
+         Function evaluations: 28
+         Gradient evaluations: 28
+Estimation time= 13.3 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.25088724 0.26717134 0.22464209 0.25175916]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+tod_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+wk                   0.2308763800  0.0341250730  6.7655937299      5.37e-11 ***
+pfl1                -1.6371553230  0.1262369885 -12.9689035051             0 ***
+cll1                -0.2839195759  0.0434820173 -6.5295861058      2.24e-10 ***
+sd.pfl1              1.5588608505  0.1210303225 12.8799198295             0 ***
+sd.cll1              0.7133537108  0.0448040855 15.9216219512             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5412.513
+AIC= 10851.025
+BIC= 10901.581
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4']
+asvars_round2 for round 2 ['pfl1', 'cll1', 'wk']
+nsig_altspec_vars ['tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['pfl1', 'cll1', 'wk', 'tod', 'seas']
+rem_asvars = ['pfl1', 'cll1', 'wk', 'tod', 'seas']
+rem_rand_vars = {'pfl1': 'ln', 'cll1': 't'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4]
+Optimization terminated successfully.
+         Current function value: 5397.695372
+         Iterations: 24
+         Function evaluations: 31
+         Gradient evaluations: 31
+Estimation time= 14.0 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.2502816  0.2674298  0.22753978 0.24920866]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+wk                   0.2338403344  0.0363537161  6.4323639922      3.99e-10 ***
+tod                  0.4014573220  0.0878800443  4.5682421441      6.76e-06 ***
+seas                 0.1954037015  0.0894478628  2.1845541687        0.0296 *  
+pfl1                -1.1136640493  0.1531320695 -7.2725723174      2.21e-12 ***
+cll1                -0.2808038343  0.0461851208 -6.0799631947      3.06e-09 ***
+sd.pfl1              1.2451708723  0.1160126176 10.7330641946             0 ***
+sd.cll1              0.7110099451  0.0428300441 16.6007287578             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5397.695
+AIC= 10809.391
+BIC= 10836.613
+None
+non-significant terms cannot be further eliminated
+unique_opp_HM is for iteration 0 is [[10836.612890614455, ['pfl1', 'cll1', 'wk', 'tod', 'seas'], [], {'pfl1': 'ln', 'cll1': 't'}, [], [], False]]
+features for round 1 ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4'] [] {} [] [] False
+estimating an MNL model
+Estimation time= 0.0 seconds
+Frequencies of alternatives: observed choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+Frequencies of alternatives: predicted choice
+[0.25 0.25 0.25 0.25]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+pfl1_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5972.156
+AIC= 11976.312
+BIC= 12078.204
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4']
+asvars_round2 for round 2 []
+nsig_altspec_vars ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4', 'pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4']
+rem_asvars = ['cl', 'loc', 'wk', 'pfl1']
+rem_rand_vars = {}
+not same as round 1 model
+MNL model round 2
+Estimation time= 0.1 seconds
+Frequencies of alternatives: observed choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+Frequencies of alternatives: predicted choice
+[0.25335824 0.24794815 0.25184251 0.2468511 ]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+cl                  -0.0795724348  0.0077656340 -10.2467402465             0 ***
+loc                  1.1330535108  0.0452228757 25.0548752742             0 ***
+wk                   0.7152949922  0.0403043927 17.7473209285             0 ***
+pfl1                 0.2890243492  0.0153490106 18.8301616108             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5454.003
+AIC= 10916.006
+BIC= 10941.479
+None
+non-significant terms cannot be further eliminated
+harmony memory for iteration 1 is [[10941.478731274246, ['cl', 'loc', 'wk', 'pfl1'], [], {}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'wk'] [] {'wk': 'ln'} [] [] False False False
+features for round 1 ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'wk'] [] {'wk': 'ln'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Optimization terminated successfully.
+         Current function value: 5922.635415
+         Iterations: 16
+         Function evaluations: 22
+         Gradient evaluations: 22
+Estimation time= 9.7 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.2520779  0.24657025 0.24623159 0.2495801 ]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+pfl1_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+wk                  -2.7141035136  0.3891482726 -6.9744714409      1.47e-11 ***
+sd.wk                1.7317267656  0.2604467113  6.6490636686      1.09e-10 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5922.635
+AIC= 11881.271
+BIC= 11951.271
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4']
+asvars_round2 for round 2 ['wk']
+nsig_altspec_vars ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['wk', 'cl', 'tod', 'seas', 'pfl1']
+rem_asvars = ['wk', 'cl', 'tod', 'seas', 'pfl1']
+rem_rand_vars = {'wk': 'ln'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4]
+Optimization terminated successfully.
+         Current function value: 5357.521598
+         Iterations: 22
+         Function evaluations: 25
+         Gradient evaluations: 25
+Estimation time= 10.0 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.22757019 0.278485   0.22081789 0.26758675]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+cl                  -0.0801860777  0.0075530603 -10.6163693570             0 ***
+tod                 -9.1181483727  0.3563754883 -25.5857899122             0 ***
+seas                -9.3726825939  0.3578733694 -26.1899414566             0 ***
+pfl1                -4.1988975322  0.1751908930 -23.9675559582             0 ***
+wk                  -1.7964280639  0.2288522502 -7.8497286465       4.8e-14 ***
+sd.wk                1.3283609183  0.1639776903  8.1008636943      8.44e-15 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5357.522
+AIC= 10727.043
+BIC= 10750.376
+None
+non-significant terms cannot be further eliminated
+unique_opp_HM is for iteration 1 is [[10750.376464646226, ['wk', 'cl', 'tod', 'seas', 'pfl1'], [], {'wk': 'ln'}, [], [], False], [10836.612890614455, ['pfl1', 'cll1', 'wk', 'tod', 'seas'], [], {'pfl1': 'ln', 'cll1': 't'}, [], [], False]]
+features for round 1 ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'tod'] [] {'tod': 'u'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Optimization terminated successfully.
+         Current function value: 5594.201513
+         Iterations: 13
+         Function evaluations: 14
+         Gradient evaluations: 14
+Estimation time= 6.1 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.25119391 0.24871051 0.24229536 0.25226006]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+pfl1_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+tod                 -1.0885678478  0.1298403001 -8.3838981193      1.11e-15 ***
+sd.tod               1.9142554924  0.1273310936 15.0336845365             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5594.202
+AIC= 11224.403
+BIC= 11294.403
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4']
+asvars_round2 for round 2 ['tod']
+nsig_altspec_vars ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['tod', 'cl', 'loc', 'seas', 'pfl1']
+rem_asvars = ['tod', 'cl', 'loc', 'seas', 'pfl1']
+rem_rand_vars = {'tod': 'u'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4]
+Optimization terminated successfully.
+         Current function value: 4858.736534
+         Iterations: 22
+         Function evaluations: 27
+         Gradient evaluations: 27
+Estimation time= 10.8 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.22189335 0.26799492 0.23853413 0.26603744]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+cl                  -0.0951850278  0.0073135587 -13.0148715770             0 ***
+loc                  0.9088021346  0.0394117561 23.0591636892             0 ***
+seas                -9.6101395673  0.3514356966 -27.3453711759             0 ***
+pfl1                -4.2881499220  0.1711955366 -25.0482577281             0 ***
+tod                 -10.1513926289  0.3663437062 -27.7100232829             0 ***
+sd.tod               2.0269408815  0.1224556237 16.5524523968             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -4858.737
+AIC= 9729.473
+BIC= 9752.806
+None
+non-significant terms cannot be further eliminated
+harmony memory for iteration 2 is [[9752.806335676054, ['tod', 'cl', 'loc', 'seas', 'pfl1'], [], {'tod': 'u'}, [], [], False], [10941.478731274246, ['cl', 'loc', 'wk', 'pfl1'], [], {}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['wk_1', 'wk_2', 'wk_3', 'wk_4', 'cll2', 'tod'] [] {'cll2': 'ln'} [] [] False False False
+features for round 1 ['wk_1', 'wk_2', 'wk_3', 'wk_4', 'cll2', 'tod'] [] {'cll2': 'ln'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5]
+Optimization terminated successfully.
+         Current function value: 5920.904189
+         Iterations: 45
+         Function evaluations: 59
+         Gradient evaluations: 59
+Estimation time= 23.6 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.25334518 0.24633652 0.24124605 0.25353209]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+wk_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+tod                 -0.3222791803  0.0374742200 -8.6000237121      2.22e-16 ***
+cll2                -10.9798044061  2.8479418448 -3.8553471260      0.000137 ***
+sd.cll2             -4.7897341512  1.2935482636 -3.7027873531      0.000247 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5920.904
+AIC= 11855.808
+BIC= 11883.031
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['wk_1', 'wk_2', 'wk_3', 'wk_4']
+asvars_round2 for round 2 ['cll2', 'tod']
+nsig_altspec_vars ['wk_1', 'wk_2', 'wk_3', 'wk_4']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['cll2', 'tod', 'wk']
+rem_asvars = ['cll2', 'tod', 'wk']
+rem_rand_vars = {'cll2': 'ln'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2]
+Optimization terminated successfully.
+         Current function value: 5908.849784
+         Iterations: 38
+         Function evaluations: 46
+         Gradient evaluations: 46
+Estimation time= 18.0 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.25576397 0.24544469 0.24022667 0.2530245 ]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+tod                 -0.3143327800  0.0382392495 -8.2201608026      3.77e-15 ***
+wk                   0.1794688744  0.0314906001  5.6991252515       2.5e-08 ***
+cll2                -8.8072564082  2.1862718634 -4.0284360586      6.85e-05 ***
+sd.cll2             -3.2747383743  0.7483847874 -4.3757415027      1.59e-05 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5908.850
+AIC= 11825.700
+BIC= 11841.255
+None
+unique_opp_HM is for iteration 2 is [[10750.376464646226, ['wk', 'cl', 'tod', 'seas', 'pfl1'], [], {'wk': 'ln'}, [], [], False], [10836.612890614455, ['pfl1', 'cll1', 'wk', 'tod', 'seas'], [], {'pfl1': 'ln', 'cll1': 't'}, [], [], False], [11841.25508082309, ['cll2', 'tod', 'wk'], [], {'cll2': 'ln'}, [], [], False]]
+features for round 1 ['loc_1', 'loc_2', 'loc_3', 'loc_4', 'pfl2', 'cll1'] [] {'pfl2': 'tn', 'cll1': 't'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5]
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 5389.129661
+         Iterations: 21
+         Function evaluations: 106
+         Gradient evaluations: 100
+**** The optimization did not converge after 21 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 0.46593135793229656
+**************************************************
+Estimation time= 47.3 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.24652007 0.26878137 0.22694085 0.25221754]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+loc_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl2                 0.0653896007  0.0089952252  7.2693678358      2.25e-12 ***
+cll1                -0.2707311875  0.0450666824 -6.0073467385      4.61e-09 ***
+sd.pfl2              0.3380523451  0.0320286205 10.5546957624             0 ***
+sd.cll1              0.7117245073  0.0426568091 16.6848979522             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5389.130
+AIC= 10794.259
+BIC= 10825.370
+None
+convergence not reached in round 1
+estimating opposite harmony memory
+opp sol features ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4'] [] {} [] [] False False False
+features for round 1 ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4'] [] {} [] [] False
+estimating an MNL model
+Estimation time= 0.0 seconds
+Frequencies of alternatives: observed choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+Frequencies of alternatives: predicted choice
+[0.25 0.25 0.25 0.25]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+pfl1_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+cl_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5972.156
+AIC= 11960.312
+BIC= 12011.258
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4']
+asvars_round2 for round 2 []
+nsig_altspec_vars ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cl_1', 'cl_2', 'cl_3', 'cl_4', 'pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4']
+rem_asvars = ['cl', 'pfl1']
+rem_rand_vars = {}
+not same as round 1 model
+MNL model round 2
+Estimation time= 0.1 seconds
+Frequencies of alternatives: observed choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+Frequencies of alternatives: predicted choice
+[0.24638514 0.26770192 0.23540495 0.25050799]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+cl                  -0.0602150600  0.0075618532 -7.9630030346         2e-15 ***
+pfl1                 0.2574018471  0.0150331191 17.1223180982             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5793.115
+AIC= 11590.230
+BIC= 11602.967
+None
+non-significant terms cannot be further eliminated
+unique_opp_HM is for iteration 3 is [[10750.376464646226, ['wk', 'cl', 'tod', 'seas', 'pfl1'], [], {'wk': 'ln'}, [], [], False], [10836.612890614455, ['pfl1', 'cll1', 'wk', 'tod', 'seas'], [], {'pfl1': 'ln', 'cll1': 't'}, [], [], False], [11602.96689070911, ['cl', 'pfl1'], [], {}, [], [], False], [11841.25508082309, ['cll2', 'tod', 'wk'], [], {'cll2': 'ln'}, [], [], False]]
+features for round 1 ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cll1_1', 'cll1_2', 'cll1_3', 'cll1_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4', 'tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4'] [] {} [] [] True
+estimating an MNL model
+Estimation time= 0.1 seconds
+Frequencies of alternatives: observed choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+Frequencies of alternatives: predicted choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.2         0.1506388224  0.0435148059  3.4617831633      0.000542 ***
+_intercept.3         0.0479133549  0.0446241631  1.0737087618         0.283    
+_intercept.4         0.1766819615  0.0433136889  4.0791252400       4.6e-05 ***
+pfl1_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+cll1_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+cll1_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+cll1_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+cll1_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+tod_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+seas_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5960.932
+AIC= 11975.863
+BIC= 12147.806
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['_intercept.3', 'pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cll1_1', 'cll1_2', 'cll1_3', 'cll1_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4', 'tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4']
+asvars_round2 for round 2 []
+nsig_altspec_vars ['pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cll1_1', 'cll1_2', 'cll1_3', 'cll1_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4', 'tod_1', 'tod_2', 'tod_3', 'tod_4', 'seas_1', 'seas_2', 'seas_3', 'seas_4', 'pfl1_1', 'pfl1_2', 'pfl1_3', 'pfl1_4', 'cll1_1', 'cll1_2', 'cll1_3', 'cll1_4']
+rem_asvars = ['loc', 'wk', 'tod', 'seas', 'pfl1', 'cll1']
+rem_rand_vars = {}
+not same as round 1 model
+MNL model round 2
+Estimation time= 0.1 seconds
+Frequencies of alternatives: observed choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+Frequencies of alternatives: predicted choice
+[0.2270195  0.26392758 0.23816156 0.27089136]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.2         0.0436620025  0.0476282757  0.9167244009         0.359    
+_intercept.3         0.0477651648  0.0480070837  0.9949607670          0.32    
+_intercept.4         0.0144712069  0.0480294319  0.3012987307         0.763    
+loc                  1.4524407795  0.0506820586 28.6578884318             0 ***
+wk                   1.0092181800  0.0442721177 22.7957963558             0 ***
+tod                 -10.7987211112  0.3776230547 -28.5965620377             0 ***
+seas                -11.1746865748  0.3795257945 -29.4438131401             0 ***
+pfl1                -4.9872641309  0.1839870861 -27.1065988179             0 ***
+cll1                -0.3084873494  0.0235647205 -13.0910676041             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -4958.432
+AIC= 9934.864
+BIC= 9992.178
+None
+harmony memory for iteration 4 is [[9752.806335676054, ['tod', 'cl', 'loc', 'seas', 'pfl1'], [], {'tod': 'u'}, [], [], False], [9992.178096884907, ['loc', 'wk', 'tod', 'seas', 'pfl1', 'cll1'], [], {}, [], [], False], [10941.478731274246, ['cl', 'loc', 'wk', 'pfl1'], [], {}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['cll3_1', 'cll3_2', 'cll3_3', 'cll3_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4', 'pfl1'] [] {'pfl1': 'n'} [] [] False False True
+features for round 1 ['cll3_1', 'cll3_2', 'cll3_3', 'cll3_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4', 'pfl1'] [] {'pfl1': 'n'} [] [] True
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+Optimization terminated successfully.
+         Current function value: 5512.012302
+         Iterations: 14
+         Function evaluations: 23
+         Gradient evaluations: 23
+Estimation time= 10.4 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.22662797 0.26193887 0.23755744 0.26833555]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.2         0.1275896410  0.0467404921  2.7297453538       0.00665 ** 
+_intercept.3         0.1480881820  0.0482141080  3.0714699134       0.00229 ** 
+_intercept.4         0.1997965436  0.0460958773  4.3343690469       1.9e-05 ***
+cll3_1               0.1000000000  1.0000000000  0.1000000000          0.92    
+cll3_2               0.1000000000  1.0000000000  0.1000000000          0.92    
+cll3_3               0.1000000000  1.0000000000  0.1000000000          0.92    
+cll3_4               0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_1                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_2                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_3                0.1000000000  1.0000000000  0.1000000000          0.92    
+loc_4                0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+wk_4                 0.1000000000  1.0000000000  0.1000000000          0.92    
+pfl1                 0.3349292173  0.0382991515  8.7450819236      2.22e-16 ***
+sd.pfl1              0.6295922170  0.0358612307 17.5563472018             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5512.012
+AIC= 11058.025
+BIC= 11124.136
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['cll3_1', 'cll3_2', 'cll3_3', 'cll3_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4']
+asvars_round2 for round 2 ['pfl1']
+nsig_altspec_vars ['cll3_1', 'cll3_2', 'cll3_3', 'cll3_4', 'loc_1', 'loc_2', 'loc_3', 'loc_4', 'wk_1', 'wk_2', 'wk_3', 'wk_4', 'cll3_1', 'cll3_2', 'cll3_3', 'cll3_4']
+redund_vars for round 2 []
+asvars_round2 before removing redundancy ['pfl1', 'loc', 'wk', 'cll3']
+rem_asvars = ['pfl1', 'loc', 'wk', 'cll3']
+rem_rand_vars = {'pfl1': 'n'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4]
+Optimization terminated successfully.
+         Current function value: 5114.414457
+         Iterations: 20
+         Function evaluations: 26
+         Gradient evaluations: 26
+Estimation time= 10.7 seconds
+Frequencies of alternatives: observed choice
+[0.22576177 0.26246537 0.23684211 0.26939058]
+Frequencies of alternatives: predicted choice
+[0.22529987 0.26398632 0.23670071 0.26847293]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.2         0.2381804396  0.0515356836  4.6216606248      5.31e-06 ***
+_intercept.3         0.0765685454  0.0522874842  1.4643761619         0.144    
+_intercept.4         0.2657396926  0.0506881087  5.2426436755       2.7e-07 ***
+loc                  1.2701813349  0.0483226597 26.2854185312             0 ***
+wk                   0.7765890613  0.0436359178 17.7970144774             0 ***
+cll3                -0.0325703403  0.0032095210 -10.1480378714             0 ***
+pfl1                 0.3620389403  0.0405277683  8.9331082144             0 ***
+sd.pfl1              0.6609339443  0.0369843348 17.8706457393             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -5114.414
+AIC= 10244.829
+BIC= 10275.940
+None
+non-significant terms cannot be further eliminated
+unique_opp_HM is for iteration 4 is [[10275.939936730805, ['pfl1', 'loc', 'wk', 'cll3'], [], {'pfl1': 'n'}, [], [], True], [10750.376464646226, ['wk', 'cl', 'tod', 'seas', 'pfl1'], [], {'wk': 'ln'}, [], [], False], [10836.612890614455, ['pfl1', 'cll1', 'wk', 'tod', 'seas'], [], {'pfl1': 'ln', 'cll1': 't'}, [], [], False], [11602.96689070911, ['cl', 'pfl1'], [], {}, [], [], False], [11841.25508082309, ['cll2', 'tod', 'wk'], [], {'cll2': 'ln'}, [], [], False]]

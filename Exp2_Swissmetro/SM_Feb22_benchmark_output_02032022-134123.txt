@@ -1,0 +1,66 @@
+Search initiated at Wed Mar  2 13:41:23 2022
+Estimation time= 0.6 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.28306878 0.58164983 0.13528139]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.CAR      -0.3937849486  0.1001812671 -3.9307243767      8.47e-05 ***
+_intercept.TRAIN    -0.9169273461  0.1277963621 -7.1749096066      7.24e-13 ***
+AGE.CAR              0.1873679332  0.0293091766  6.3928078152      1.63e-10 ***
+AGE.TRAIN            0.2541657622  0.0317148843  8.0140844961      1.11e-15 ***
+LUGGAGE.CAR         -0.1206689613  0.0542396449 -2.2247373012        0.0261 *  
+LUGGAGE.TRAIN        0.3203422495  0.0545700419  5.8702950944      4.35e-09 ***
+TIME                -0.0105738411  0.0005161851 -20.4845931820             0 ***
+GA0_TC              -0.0117599533  0.0007677164 -15.3180966750             0 ***
+COST                 0.0001530875  0.0000277920  5.5083276615      3.62e-08 ***
+SEATS                0.1887594450  0.0841871846  2.2421398933         0.025 *  
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -6717.780
+AIC= 13455.560
+BIC= 13525.820
+Estimation time= 0.6 seconds
+Frequencies of alternatives: observed choice
+[0.28306878 0.58164983 0.13528139]
+Frequencies of alternatives: predicted choice
+[0.28306877 0.58164985 0.13528138]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+_intercept.SM       -0.1347512237  0.8651291003 -0.1557585147         0.876    
+_intercept.TRAIN    -0.0190807835  0.8457269190 -0.0225614002         0.982    
+TIME                 0.0343077931  0.0020452409 16.7744512657             0 ***
+COST                -0.0017490528  0.0002128841 -8.2159849106      2.22e-16 ***
+HEADWAY              0.0068757614  0.0218370861  0.3148662516         0.753    
+SEATS                0.3382153686  0.0868139118  3.8958660156      9.78e-05 ***
+GA0_TC              -0.0087059273  0.0008252994 -10.5488103062             0 ***
+AGE_CAR              0.1553798166  0.5776826753  0.2689708783         0.788    
+AGE_SM              -0.0705878095  0.5775796912 -0.1222131085         0.903    
+AGE_TRAIN            0.2152079929  0.5777565178  0.3724890785          0.71    
+LUGGAGE_TRAIN        0.3201323715  0.5787848943  0.5531111380          0.58    
+LUGGAGE_SM           0.0420988542  0.5780866557  0.0728244698         0.942    
+LUGGAGE_CAR         -0.0622312257  0.5784598406 -0.1075808921         0.914    
+FIRST_SM             0.0540063315  0.0565315607  0.9553306298         0.339    
+MALE_SM              0.2417625851  0.5786647557  0.4177938655         0.676    
+MALE_CAR             0.4562388911  0.5795060691  0.7872892372         0.431    
+MALE_TRAIN          -0.3980014763  0.5797093837 -0.6865534481         0.492    
+INCOME_TRAIN         0.0222225157  0.5781175340  0.0384394425         0.969    
+INCOME_CAR           0.0801514252  0.5780092829  0.1386680587          0.89    
+INCOME_SM            0.1976260591  0.5777426943  0.3420658731         0.732    
+TIME_L1              4.5663443838  0.1970277798 23.1761449467             0 ***
+TIME_L2             -0.9589542538  0.0418910265 -22.8916389485             0 ***
+COST_L1             -1.2454937875  0.1239552257 -10.0479328782             0 ***
+COST_L2              0.1201491612  0.0124030244  9.6870857323             0 ***
+HEADWAY_L1           0.5064564344  0.7882604373  0.6424988626         0.521    
+HEADWAY_L2          -0.1778923018  0.2789769757 -0.6376594388         0.524    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -6502.340
+AIC= 13056.679
+BIC= 13239.354
+avail_features ['TIME', 'COST', 'HEADWAY', 'SEATS', 'GA0_TC', 'AGE_CAR', 'AGE_SM', 'AGE_TRAIN', 'LUGGAGE_TRAIN', 'LUGGAGE_SM', 'LUGGAGE_CAR', 'FIRST_SM', 'MALE_SM', 'MALE_CAR', 'MALE_TRAIN', 'INCOME_TRAIN', 'INCOME_CAR', 'INCOME_SM', 'TIME_L1', 'TIME_L2', 'COST_L1', 'COST_L2', 'HEADWAY_L1', 'HEADWAY_L2'] [] ['TIME', 'COST', 'HEADWAY', 'SEATS', 'GA0_TC', 'AGE_CAR', 'AGE_SM', 'AGE_TRAIN', 'LUGGAGE_TRAIN', 'LUGGAGE_SM', 'LUGGAGE_CAR', 'FIRST_SM', 'MALE_SM', 'MALE_CAR', 'MALE_TRAIN', 'INCOME_TRAIN', 'INCOME_CAR', 'INCOME_SM', 'TIME_L1', 'TIME_L2', 'COST_L1', 'COST_L2', 'HEADWAY_L1', 'HEADWAY_L2'] ['TIME', 'COST', 'HEADWAY', 'SEATS', 'GA0_TC', 'AGE_CAR', 'AGE_SM', 'AGE_TRAIN', 'LUGGAGE_TRAIN', 'LUGGAGE_SM', 'LUGGAGE_CAR', 'FIRST_SM', 'MALE_SM', 'MALE_CAR', 'MALE_TRAIN', 'INCOME_TRAIN', 'INCOME_CAR', 'INCOME_SM', 'TIME_L1', 'TIME_L2', 'COST_L1', 'COST_L2', 'HEADWAY_L1', 'HEADWAY_L2'] ['TIME', 'COST', 'HEADWAY', 'SEATS', 'GA0_TC', 'AGE_CAR', 'AGE_SM', 'AGE_TRAIN', 'LUGGAGE_TRAIN', 'LUGGAGE_SM', 'LUGGAGE_CAR', 'FIRST_SM', 'MALE_SM', 'MALE_CAR', 'MALE_TRAIN', 'INCOME_TRAIN', 'INCOME_CAR', 'INCOME_SM', 'TIME_L1', 'TIME_L2', 'COST_L1', 'COST_L2', 'HEADWAY_L1', 'HEADWAY_L2']

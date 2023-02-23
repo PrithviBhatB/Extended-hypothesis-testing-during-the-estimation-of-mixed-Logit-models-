@@ -1,0 +1,1005 @@
+features for round 1 ['RECRE_1', 'RECRE_2', 'RECRE_3', 'DIST6_1', 'DIST6_2', 'DIST6_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'UNGUARDED_1', 'UNGUARDED_2', 'UNGUARDED_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_1', 'CF_2', 'CF_3', 'BIKESEP', 'FREQ_HIGHER', 'GUARDED'] [] {'BIKESEP': 't', 'GUARDED': 'ln'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+Optimization terminated successfully.
+         Current function value: 3061.352100
+         Iterations: 22
+         Function evaluations: 31
+         Gradient evaluations: 31
+Estimation time= 8.9 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.39212305 0.38951525 0.21836169]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+RECRE_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_1       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_2       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_3       0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED_1          0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED_2          0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED_3          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_1             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_2             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_3             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER          0.6750140022  0.0561335222 12.0251495974             0 ***
+BIKESEP              0.9938329856  0.1010659362  9.8335108995             0 ***
+GUARDED             -3.3870939490  0.8980934658 -3.7714270041      0.000191 ***
+sd.BIKESEP           1.5273415805  0.1136961176 13.4335420856             0 ***
+sd.GUARDED          -2.5005135563  0.5791305971 -4.3177023777      2.06e-05 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -3061.352
+AIC= 6174.704
+BIC= 6274.787
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['RECRE_1', 'RECRE_2', 'RECRE_3', 'DIST6_1', 'DIST6_2', 'DIST6_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'UNGUARDED_1', 'UNGUARDED_2', 'UNGUARDED_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_1', 'CF_2', 'CF_3']
+asvars_round2 for round 2 ['BIKESEP', 'FREQ_HIGHER', 'GUARDED', 'CF']
+nsig_altspec_vars ['CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_1', 'CF_2', 'CF_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'DIST6_1', 'DIST6_2', 'DIST6_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'UNGUARDED_1', 'UNGUARDED_2', 'UNGUARDED_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['BIKESEP', 'FREQ_HIGHER', 'GUARDED', 'CF', 'RECRE', 'RECRE', 'DIST6', 'UNGUARDED']
+rem_asvars = ['BIKESEP', 'CF', 'DIST6', 'FREQ_HIGHER', 'GUARDED', 'RECRE', 'UNGUARDED']
+rem_rand_vars = {'BIKESEP': 't', 'GUARDED': 'ln'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6]
+Optimization terminated successfully.
+         Current function value: 2795.298539
+         Iterations: 39
+         Function evaluations: 45
+         Gradient evaluations: 45
+Estimation time= 11.2 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44873411 0.4511257  0.10014019]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   1.2106542099  0.0795887156 15.2113801630             0 ***
+DIST6               -0.2589952400  0.0604906415 -4.2815753590       2.4e-05 ***
+FREQ_HIGHER          0.1615469658  0.0573374549  2.8174770956       0.00512 ** 
+RECRE                0.2098192216  0.0323379358  6.4883306983         3e-10 ***
+UNGUARDED            0.1628739190  0.0598252624  2.7224940173       0.00681 ** 
+BIKESEP              0.5105778494  0.1050204901  4.8616974554      1.77e-06 ***
+GUARDED             -20.3303478696 2608.1200288186 -0.0077950200         0.994    
+sd.BIKESEP           1.6618675815  0.1039841301 15.9819347491             0 ***
+sd.GUARDED          -0.4315021432 89.7788258210 -0.0048062796         0.996    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2795.299
+AIC= 5608.597
+BIC= 5643.241
+None
+non_sig in round 2 ['GUARDED', 'sd.GUARDED']
+solution consists insignificant coeffs
+non-sig coeffs are ['GUARDED', 'sd.GUARDED']
+asvars_round2 for round 2 ['BIKESEP', 'CF', 'DIST6', 'FREQ_HIGHER', 'RECRE', 'UNGUARDED', 'CF']
+nsig_altspec_vars []
+rem_asvars = ['BIKESEP', 'CF', 'DIST6', 'FREQ_HIGHER', 'RECRE', 'UNGUARDED']
+rem_rand_vars = {'BIKESEP': 't'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5]
+Optimization terminated successfully.
+         Current function value: 2795.298539
+         Iterations: 18
+         Function evaluations: 25
+         Gradient evaluations: 25
+Estimation time= 5.6 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44873411 0.4511257  0.10014018]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   1.2106542165  0.0814150668 14.8701495230             0 ***
+DIST6               -0.2589952777  0.0602384624 -4.2995001417      2.23e-05 ***
+FREQ_HIGHER          0.1615469975  0.0585950439  2.7570078776       0.00614 ** 
+RECRE                0.2098191813  0.0343654418  6.1055284068      2.74e-09 ***
+UNGUARDED            0.1628738876  0.0616441695  2.6421620874       0.00861 ** 
+BIKESEP              0.5105782925  0.1075272902  4.7483600831         3e-06 ***
+sd.BIKESEP           1.6618677618  0.1252779886 13.2654409617             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2795.299
+AIC= 5604.597
+BIC= 5631.542
+None
+non_sig in round 2 []
+non-significant terms cannot be further eliminated
+harmony memory for iteration 0 is [[5631.542351179193, ['BIKESEP', 'CF', 'DIST6', 'FREQ_HIGHER', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 't'}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['DIST6_1', 'DIST6_2', 'DIST6_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'CF_male_1', 'CF_male_2', 'CF_male_3', 'CF_1', 'CF_2', 'CF_3', 'PRICE', 'FREQ_HIGHEST', 'GUARDED', 'CF_income'] [] {'PRICE': 'ln', 'FREQ_HIGHEST': 'ln', 'GUARDED': 'n'} [] [] False False False
+features for round 1 ['DIST6_1', 'DIST6_2', 'DIST6_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'CF_male_1', 'CF_male_2', 'CF_male_3', 'CF_1', 'CF_2', 'CF_3', 'PRICE', 'FREQ_HIGHEST', 'GUARDED', 'CF_income'] [] {'PRICE': 'ln', 'FREQ_HIGHEST': 'ln', 'GUARDED': 'n'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 2999.878561
+         Iterations: 20
+         Function evaluations: 101
+         Gradient evaluations: 89
+**** The optimization did not converge after 20 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 8.43525961465281e+16
+**************************************************
+Estimation time= 28.7 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.46480999 0.46478098 0.07040903]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+DIST6_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_1        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_2        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_3        0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_male_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_male_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_male_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_income            0.9559693334  0.0422466504 22.6282870797             0 ***
+PRICE               -11.5265072482  1.9385388612 -5.9459768793       6.7e-09 ***
+FREQ_HIGHEST        -5.7719846261  0.8203765065 -7.0357751352      1.06e-11 ***
+GUARDED             -0.1550424899  0.0661705929 -2.3430724005        0.0197 *  
+sd.PRICE            -3.5805237288  0.7619342251 -4.6992556721      3.77e-06 ***
+sd.FREQ_HIGHEST      2.7016734940  0.4102229020  6.5858670522      1.68e-10 ***
+sd.GUARDED           0.7638102158  0.0988702701  7.7253780607      1.21e-13 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2999.879
+AIC= 6037.757
+BIC= 6110.894
+None
+convergence not reached in round 1
+features for round 1 ['CF_income_1', 'CF_income_2', 'CF_income_3', 'BIKESEP', 'FREQ_HIGHEST', 'GUARDED', 'CF_pt', 'CF_child', 'CF'] [] {'BIKESEP': 'ln', 'FREQ_HIGHEST': 'u', 'GUARDED': 'ln'} [] ['BIKESEP', 'FREQ_HIGHEST', 'GUARDED'] False
+estimating an MXL model
+self.correlationpos [3, 4, 5]
+uncorrelatedpos [0, 1, 2, 6, 7, 8]
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 2852.225045
+         Iterations: 36
+         Function evaluations: 133
+         Gradient evaluations: 129
+**** The optimization did not converge after 36 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 3.217665164189645
+**************************************************
+Estimation time= 35.6 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45083039 0.44830016 0.10086946]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF_income_1          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_income_2          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_income_3          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_pt               -0.2674927590  0.0815495592 -3.2801251347       0.00114 ** 
+CF_child            -0.8679266693  0.1482361966 -5.8550252164      1.11e-08 ***
+CF                   3.5774781020  0.4236772563  8.4438757310      8.88e-16 ***
+BIKESEP             -2.3159692725  1.1707664472 -1.9781650543        0.0487 *  
+FREQ_HIGHEST        -0.0579641773  0.0795996836 -0.7281960769         0.467    
+GUARDED             -6.4979517132  3.4782679279 -1.8681573266        0.0626 .  
+chol.BIKESEP.BIKESE  2.9192726003  1.7506114635  1.6675731088        0.0963 .  
+chol.FREQ_HIGHEST.B  0.1322585270  0.1190591261  1.1108642513         0.267    
+chol.FREQ_HIGHEST.F  0.6676416171  0.1038952627  6.4261025918      4.32e-10 ***
+chol.GUARDED.BIKESE  2.5960908392  1.4456711623  1.7957685723        0.0734 .  
+chol.GUARDED.FREQ_H  1.5039965657  0.6145885876  2.4471599310        0.0149 *  
+chol.GUARDED.GUARDE  0.8915497943  0.6825073338  1.3062860281         0.192    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2852.225
+AIC= 5734.450
+BIC= 5792.190
+None
+convergence not reached in round 1
+estimating opposite harmony memory
+opp sol features ['RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'BIKESEP', 'DIST6', 'UNGUARDED', 'CF'] [] {'BIKESEP': 'n', 'DIST6': 'ln'} [] [] False False False
+features for round 1 ['RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'BIKESEP', 'DIST6', 'UNGUARDED', 'CF'] [] {'BIKESEP': 'n', 'DIST6': 'ln'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+Optimization terminated successfully.
+         Current function value: 2826.434355
+         Iterations: 37
+         Function evaluations: 44
+         Gradient evaluations: 44
+Estimation time= 13.1 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44962986 0.45037096 0.09999917]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+RECRE_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+PRICE_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+PRICE_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+PRICE_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_1        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_2        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_3        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_1       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_2       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_3       0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_1             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_2             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_3             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_1           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_2           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_3           0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED            0.1337550734  0.0534977456  2.5002001824        0.0129 *  
+CF                   1.3976670649  0.0647819017 21.5749619709             0 ***
+BIKESEP              0.4943235185  0.1019395303  4.8491837979      1.87e-06 ***
+DIST6               -25.4900737467 1294.0248091027 -0.0196982883         0.984    
+sd.BIKESEP           1.5922039815  0.1102672285 14.4395030453             0 ***
+sd.DIST6             4.0589493952 208.1782425189  0.0194974717         0.984    
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2826.434
+AIC= 5706.869
+BIC= 5810.800
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'DIST6', 'sd.DIST6']
+asvars_round2 for round 2 ['BIKESEP', 'UNGUARDED', 'CF', 'CF']
+nsig_altspec_vars ['CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_child_1', 'CF_child_2', 'CF_child_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['BIKESEP', 'UNGUARDED', 'CF', 'CF', 'RECRE', 'PRICE', 'RECRE']
+rem_asvars = ['BIKESEP', 'CF', 'PRICE', 'RECRE', 'UNGUARDED']
+rem_rand_vars = {'BIKESEP': 'n'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4]
+Optimization terminated successfully.
+         Current function value: 2541.332715
+         Iterations: 18
+         Function evaluations: 23
+         Gradient evaluations: 23
+Estimation time= 5.1 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44699697 0.45262815 0.10037488]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   0.1229085126  0.0929717733  1.3219981524         0.187    
+PRICE               -0.4221130293  0.0203368513 -20.7560661075             0 ***
+RECRE                0.2254669806  0.0359070955  6.2791762360      1.02e-09 ***
+UNGUARDED            0.1907741215  0.0639559430  2.9828990461       0.00306 ** 
+BIKESEP              0.6052450454  0.1298674886  4.6604816354       4.5e-06 ***
+sd.BIKESEP           1.9569203211  0.1405810872 13.9202246876             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2541.333
+AIC= 5094.665
+BIC= 5117.761
+None
+non_sig in round 2 ['CF']
+non-significant terms are pre-specified
+unique_opp_HM is for iteration 1 is [[5117.7613787814325, ['BIKESEP', 'CF', 'PRICE', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 'n'}, [], [], False]]
+features for round 1 ['BIKELANE_1', 'BIKELANE_2', 'BIKELANE_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'CF_income_1', 'CF_income_2', 'CF_income_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'PRICE', 'DIST6', 'CF_car', 'CF_bike', 'CF'] [] {'PRICE': 'u', 'DIST6': 'u'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Optimization terminated successfully.
+         Current function value: 2367.122280
+         Iterations: 18
+         Function evaluations: 24
+         Gradient evaluations: 24
+Estimation time= 6.6 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45609717 0.44485928 0.09904355]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+BIKELANE_1           0.1000000000  1.0000000000  0.1000000000          0.92    
+BIKELANE_2           0.1000000000  1.0000000000  0.1000000000          0.92    
+BIKELANE_3           0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_income_1          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_income_2          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_income_3          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_1           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_2           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_3           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_car              -2.1991583730  0.1960567329 -11.2169489932             0 ***
+CF_bike              1.0812578505  0.2794901982  3.8686789644      0.000131 ***
+CF                   0.7916876663  0.2598746429  3.0464213722       0.00249 ** 
+PRICE               -0.4993050032  0.0409676400 -12.1877902495             0 ***
+DIST6               -0.5162053462  0.0808130596 -6.3876475993      5.42e-10 ***
+sd.PRICE             0.5912487496  0.0407003794 14.5268609010             0 ***
+sd.DIST6             0.6314991791  0.1266832859  4.9848657982      9.81e-07 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2367.122
+AIC= 4772.245
+BIC= 4845.382
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['BIKELANE_1', 'BIKELANE_2', 'BIKELANE_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'CF_income_1', 'CF_income_2', 'CF_income_3', 'CF_child_1', 'CF_child_2', 'CF_child_3']
+asvars_round2 for round 2 ['PRICE', 'DIST6', 'CF_car', 'CF_bike', 'CF', 'CF']
+nsig_altspec_vars ['CF_income_1', 'CF_income_2', 'CF_income_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'BIKELANE_1', 'BIKELANE_2', 'BIKELANE_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'CF_income_1', 'CF_income_2', 'CF_income_3', 'CF_child_1', 'CF_child_2', 'CF_child_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['PRICE', 'DIST6', 'CF_car', 'CF_bike', 'CF', 'CF', 'BIKELANE', 'DIST3']
+rem_asvars = ['BIKELANE', 'CF', 'CF_bike', 'CF_car', 'DIST3', 'DIST6', 'PRICE']
+rem_rand_vars = {'PRICE': 'u', 'DIST6': 'u'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6]
+Optimization terminated successfully.
+         Current function value: 2331.709804
+         Iterations: 21
+         Function evaluations: 25
+         Gradient evaluations: 25
+Estimation time= 6.1 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45447694 0.4429968  0.10252626]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+BIKELANE             0.3743331245  0.0658961990  5.6806482032      2.84e-08 ***
+CF                   0.3345321916  0.2494038439  1.3413273283         0.181    
+CF_bike              1.1607688095  0.2620350844  4.4298221067      1.27e-05 ***
+CF_car              -2.1915334058  0.2046071426 -10.7109330506             0 ***
+DIST3                0.4935167745  0.0824074922  5.9887367194      5.29e-09 ***
+DIST6               -0.2350576584  0.0941826476 -2.4957639688         0.013 *  
+PRICE               -0.4822749443  0.0413797701 -11.6548483270             0 ***
+sd.DIST6             0.5804678961  0.1312481659  4.4226743442      1.31e-05 ***
+sd.PRICE             0.6030006322  0.0390774164 15.4309237220             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2331.710
+AIC= 4681.420
+BIC= 4716.064
+None
+non_sig in round 2 ['CF']
+non-significant terms are pre-specified
+harmony memory for iteration 2 is [[4716.063530373253, ['BIKELANE', 'CF', 'CF_bike', 'CF_car', 'DIST3', 'DIST6', 'PRICE'], [], {'PRICE': 'u', 'DIST6': 'u'}, [], [], False], [5631.542351179193, ['BIKESEP', 'CF', 'DIST6', 'FREQ_HIGHER', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 't'}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['BIKESEP_1', 'BIKESEP_2', 'BIKESEP_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_1', 'CF_2', 'CF_3', 'PRICE', 'CF_stay', 'CF_age', 'CF_child', 'CF_bike'] [] {'PRICE': 'n'} [] [] False False False
+features for round 1 ['BIKESEP_1', 'BIKESEP_2', 'BIKESEP_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_1', 'CF_2', 'CF_3', 'PRICE', 'CF_stay', 'CF_age', 'CF_child', 'CF_bike'] [] {'PRICE': 'n'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Optimization terminated successfully.
+         Current function value: 2454.623867
+         Iterations: 22
+         Function evaluations: 27
+         Gradient evaluations: 27
+Estimation time= 6.8 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45127593 0.4432585  0.10546558]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+BIKESEP_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+BIKESEP_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+BIKESEP_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_1       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_2       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_3       0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_pt_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_pt_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_pt_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay              0.2497001533  0.1612662823  1.5483717351         0.122    
+CF_age               0.0254562372  0.0114428414  2.2246430176        0.0267 *  
+CF_child            -0.5519684697  0.2047586836 -2.6957023752       0.00737 ** 
+CF_bike              0.9247738934  0.2277278750  4.0608726237      6.05e-05 ***
+PRICE               -0.4614770138  0.0389610357 -11.8445776666             0 ***
+sd.PRICE             0.5842488444  0.0376391365 15.5223763867             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2454.624
+AIC= 4945.248
+BIC= 5014.536
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['BIKESEP_1', 'BIKESEP_2', 'BIKESEP_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_1', 'CF_2', 'CF_3', 'CF_stay']
+asvars_round2 for round 2 ['PRICE', 'CF_age', 'CF_child', 'CF_bike', 'CF']
+nsig_altspec_vars ['CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_1', 'CF_2', 'CF_3', 'BIKESEP_1', 'BIKESEP_2', 'BIKESEP_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['PRICE', 'CF_age', 'CF_child', 'CF_bike', 'CF', 'BIKESEP']
+rem_asvars = ['BIKESEP', 'CF', 'CF_age', 'CF_bike', 'CF_child', 'PRICE']
+rem_rand_vars = {'PRICE': 'n'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5]
+Optimization terminated successfully.
+         Current function value: 2387.461085
+         Iterations: 22
+         Function evaluations: 26
+         Gradient evaluations: 26
+Estimation time= 5.8 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45003272 0.44644574 0.10352154]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+BIKESEP              0.7577245742  0.0663929336 11.4127292380             0 ***
+CF                   0.9968569522  0.4727991401  2.1084153242        0.0357 *  
+CF_age              -0.0013086013  0.0156473797 -0.0836306964         0.933    
+CF_bike              0.7241254827  0.2564718975  2.8234106341       0.00503 ** 
+CF_child            -0.7645909905  0.2025741390 -3.7743761092      0.000189 ***
+PRICE               -0.5149022590  0.0427624867 -12.0409802784             0 ***
+sd.PRICE             0.6386440224  0.0415826847 15.3584124657             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2387.461
+AIC= 4788.922
+BIC= 4815.867
+None
+non_sig in round 2 ['CF_age']
+non-significant terms are pre-specified
+unique_opp_HM is for iteration 2 is [[4815.867443463982, ['BIKESEP', 'CF', 'CF_age', 'CF_bike', 'CF_child', 'PRICE'], [], {'PRICE': 'n'}, [], [], False], [5117.7613787814325, ['BIKESEP', 'CF', 'PRICE', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 'n'}, [], [], False]]
+features for round 1 ['RECRE_1', 'RECRE_2', 'RECRE_3', 'UNGUARDED_1', 'UNGUARDED_2', 'UNGUARDED_3', 'CF_1', 'CF_2', 'CF_3', 'DIST6', 'CF_pt', 'CF_age'] [] {} [] [] False
+estimating an MNL model
+Estimation time= 0.0 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44802027 0.44802027 0.10395946]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+RECRE_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED_1          0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED_2          0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED_3          0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6               -0.1748054767  0.0550360886 -3.1761973141       0.00151 ** 
+CF_pt                0.1200030793  0.0472932734  2.5374238365        0.0112 *  
+CF_age               0.0391429988  0.0080807750  4.8439659362      1.33e-06 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2971.386
+AIC= 5966.772
+BIC= 6039.331
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['RECRE_1', 'RECRE_2', 'RECRE_3', 'UNGUARDED_1', 'UNGUARDED_2', 'UNGUARDED_3', 'CF_1', 'CF_2', 'CF_3']
+asvars_round2 for round 2 ['DIST6', 'CF_pt', 'CF_age', 'CF']
+nsig_altspec_vars ['CF_1', 'CF_2', 'CF_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'UNGUARDED_1', 'UNGUARDED_2', 'UNGUARDED_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['DIST6', 'CF_pt', 'CF_age', 'CF', 'RECRE', 'RECRE', 'UNGUARDED']
+rem_asvars = ['CF', 'CF_age', 'CF_pt', 'DIST6', 'RECRE', 'UNGUARDED']
+rem_rand_vars = {}
+not same as round 1 model
+MNL model round 2
+Estimation time= 0.0 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45000585 0.45009021 0.09990394]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   2.7956421900  0.4921980584  5.6799130798      1.47e-08 ***
+CF_age              -0.0169975322  0.0112262578 -1.5140871051          0.13    
+CF_pt               -0.2267448829  0.0791053841 -2.8663647303       0.00418 ** 
+DIST6               -0.1903396432  0.0556085446 -3.4228488546      0.000628 ***
+RECRE                0.1728660857  0.0313009230  5.5227152821      3.61e-08 ***
+UNGUARDED            0.1179094720  0.0549449434  2.1459567475         0.032 *  
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2934.957
+AIC= 5881.914
+BIC= 5918.193
+None
+harmony memory for iteration 3 is [[4716.063530373253, ['BIKELANE', 'CF', 'CF_bike', 'CF_car', 'DIST3', 'DIST6', 'PRICE'], [], {'PRICE': 'u', 'DIST6': 'u'}, [], [], False], [5631.542351179193, ['BIKESEP', 'CF', 'DIST6', 'FREQ_HIGHER', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 't'}, [], [], False], [5918.192809611018, ['CF', 'CF_age', 'CF_pt', 'DIST6', 'RECRE', 'UNGUARDED'], [], {}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'BIKELANE_1', 'BIKELANE_2', 'BIKELANE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'GUARDED', 'CF_stay', 'CF_pt', 'CF'] [] {'GUARDED': 'u'} [] [] False False False
+features for round 1 ['RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'BIKELANE_1', 'BIKELANE_2', 'BIKELANE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'GUARDED', 'CF_stay', 'CF_pt', 'CF'] [] {'GUARDED': 'u'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Optimization terminated successfully.
+         Current function value: 2933.654950
+         Iterations: 12
+         Function evaluations: 17
+         Gradient evaluations: 17
+Estimation time= 4.3 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45006682 0.45006682 0.09986636]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+RECRE_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+PRICE_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+PRICE_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+PRICE_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+BIKELANE_1           0.1000000000  1.0000000000  0.1000000000          0.92    
+BIKELANE_2           0.1000000000  1.0000000000  0.1000000000          0.92    
+BIKELANE_3           0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_1        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_2        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_3        0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_1           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_2           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_child_3           0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay              0.0386968004  0.1237187056  0.3127805148         0.755    
+CF_pt               -0.2032269751  0.0815798760 -2.4911410161        0.0132 *  
+CF                   2.4780000484  0.3801596441  6.5183143112      2.51e-10 ***
+GUARDED             -0.2452771257  0.0715252710 -3.4292372808      0.000678 ***
+sd.GUARDED           0.7976593017  0.0967210382  8.2470093054      3.33e-15 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2933.655
+AIC= 5907.310
+BIC= 5984.296
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'BIKELANE_1', 'BIKELANE_2', 'BIKELANE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'CF_child_1', 'CF_child_2', 'CF_child_3', 'CF_stay']
+asvars_round2 for round 2 ['GUARDED', 'CF_pt', 'CF', 'CF']
+nsig_altspec_vars ['CF_child_1', 'CF_child_2', 'CF_child_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'PRICE_1', 'PRICE_2', 'PRICE_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'BIKELANE_1', 'BIKELANE_2', 'BIKELANE_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'CF_child_1', 'CF_child_2', 'CF_child_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['GUARDED', 'CF_pt', 'CF', 'CF', 'RECRE', 'PRICE', 'RECRE', 'BIKELANE']
+rem_asvars = ['BIKELANE', 'CF', 'CF_pt', 'GUARDED', 'PRICE', 'RECRE']
+rem_rand_vars = {'GUARDED': 'u'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5]
+Optimization terminated successfully.
+         Current function value: 2684.898215
+         Iterations: 16
+         Function evaluations: 24
+         Gradient evaluations: 24
+Estimation time= 5.3 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45471224 0.44514484 0.10014292]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+BIKELANE             0.3142026686  0.0598559480  5.2493140454      2.67e-07 ***
+CF                   1.3413759361  0.3619014099  3.7064678378      0.000245 ***
+CF_pt               -0.2052663292  0.0787379383 -2.6069558547       0.00953 ** 
+PRICE               -0.3457310193  0.0175023016 -19.7534602721             0 ***
+RECRE                0.1903994470  0.0334866997  5.6858229939      2.76e-08 ***
+GUARDED             -0.2448937669  0.0732209837 -3.3445844963      0.000914 ***
+sd.GUARDED           0.7854841348  0.1008175792  7.7911425839      7.77e-14 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2684.898
+AIC= 5383.796
+BIC= 5410.742
+None
+non_sig in round 2 []
+non-significant terms cannot be further eliminated
+unique_opp_HM is for iteration 3 is [[4815.867443463982, ['BIKESEP', 'CF', 'CF_age', 'CF_bike', 'CF_child', 'PRICE'], [], {'PRICE': 'n'}, [], [], False], [5117.7613787814325, ['BIKESEP', 'CF', 'PRICE', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 'n'}, [], [], False], [5410.741702894188, ['BIKELANE', 'CF', 'CF_pt', 'GUARDED', 'PRICE', 'RECRE'], [], {'GUARDED': 'u'}, [], [], False]]
+features for round 1 ['DIST6_1', 'DIST6_2', 'DIST6_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'CF_car_1', 'CF_car_2', 'CF_car_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'PRICE', 'FREQ_HIGHER', 'UNGUARDED', 'CF_child', 'CF'] [] {'PRICE': 't', 'FREQ_HIGHER': 't'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Optimization terminated successfully.
+         Current function value: 2400.203800
+         Iterations: 21
+         Function evaluations: 27
+         Gradient evaluations: 27
+Estimation time= 7.7 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45257048 0.44782394 0.09960558]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+DIST6_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_car_1             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_car_2             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_car_3             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_1             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_2             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_age_3             0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED            0.2505610240  0.0678842734  3.6910025147      0.000259 ***
+CF_child            -0.7944267212  0.2169543971 -3.6617221492       0.00029 ***
+CF                   1.8287753634  0.2786346943  6.5633440503      1.92e-10 ***
+PRICE               -0.5118192720  0.0417883471 -12.2478946435             0 ***
+FREQ_HIGHER          0.1933601564  0.0999756870  1.9340717944        0.0539 .  
+sd.PRICE             0.6207050095  0.0415992797 14.9210518455             0 ***
+sd.FREQ_HIGHER       1.2970303487  0.1235348807 10.4993046601             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2400.204
+AIC= 4850.408
+BIC= 4946.641
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['DIST6_1', 'DIST6_2', 'DIST6_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'CF_car_1', 'CF_car_2', 'CF_car_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'FREQ_HIGHER']
+asvars_round2 for round 2 ['PRICE', 'UNGUARDED', 'CF_child', 'CF', 'CF']
+nsig_altspec_vars ['CF_car_1', 'CF_car_2', 'CF_car_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'DIST6_1', 'DIST6_2', 'DIST6_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'CF_car_1', 'CF_car_2', 'CF_car_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_age_1', 'CF_age_2', 'CF_age_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['PRICE', 'UNGUARDED', 'CF_child', 'CF', 'CF', 'DIST6', 'DIST3']
+rem_asvars = ['CF', 'CF_child', 'DIST3', 'DIST6', 'PRICE', 'UNGUARDED']
+rem_rand_vars = {'PRICE': 't'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5]
+Optimization terminated successfully.
+         Current function value: 2407.582057
+         Iterations: 17
+         Function evaluations: 24
+         Gradient evaluations: 24
+Estimation time= 5.4 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45493587 0.44184078 0.10322336]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   1.6310939624  0.2749296833  5.9327677637      7.21e-09 ***
+CF_child            -0.6958870709  0.2164617189 -3.2148274276       0.00143 ** 
+DIST3                0.4889964202  0.0819160721  5.9694808087      5.88e-09 ***
+DIST6               -0.2127826168  0.0852694837 -2.4954134545         0.013 *  
+UNGUARDED            0.2318349612  0.0656995853  3.5287127046      0.000474 ***
+PRICE               -0.4919444103  0.0419656678 -11.7225445475             0 ***
+sd.PRICE             0.6226194904  0.0405697570 15.3468873364             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2407.582
+AIC= 4829.164
+BIC= 4856.109
+None
+non_sig in round 2 []
+non-significant terms cannot be further eliminated
+harmony memory for iteration 4 is [[4716.063530373253, ['BIKELANE', 'CF', 'CF_bike', 'CF_car', 'DIST3', 'DIST6', 'PRICE'], [], {'PRICE': 'u', 'DIST6': 'u'}, [], [], False], [4856.109387505344, ['CF', 'CF_child', 'DIST3', 'DIST6', 'PRICE', 'UNGUARDED'], [], {'PRICE': 't'}, [], [], False], [5631.542351179193, ['BIKESEP', 'CF', 'DIST6', 'FREQ_HIGHER', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 't'}, [], [], False], [5918.192809611018, ['CF', 'CF_age', 'CF_pt', 'DIST6', 'RECRE', 'UNGUARDED'], [], {}, [], [], False], [1000000, [], [], {}, [], [], False]]
+estimating opposite harmony memory
+opp sol features ['RECRE_1', 'RECRE_2', 'RECRE_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3', 'BIKELANE', 'BIKESEP', 'UNGUARDED', 'CF_age'] [] {'BIKELANE': 'n', 'BIKESEP': 'n'} [] [] False False False
+features for round 1 ['RECRE_1', 'RECRE_2', 'RECRE_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3', 'BIKELANE', 'BIKESEP', 'UNGUARDED', 'CF_age'] [] {'BIKELANE': 'n', 'BIKESEP': 'n'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Optimization terminated successfully.
+         Current function value: 2676.939903
+         Iterations: 18
+         Function evaluations: 24
+         Gradient evaluations: 24
+Estimation time= 6.9 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44961062 0.45181968 0.09856969]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+RECRE_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+RECRE_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST3_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_1       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_2       0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST_3       0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_pt_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_pt_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_pt_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+UNGUARDED            0.1635379961  0.0650627856  2.5135412603        0.0124 *  
+CF_age               0.0413241863  0.0030711436 13.4556348197             0 ***
+BIKELANE             1.0416955367  0.1168192006  8.9171602902             0 ***
+BIKESEP              1.1790688462  0.1461487487  8.0675945321      1.18e-14 ***
+sd.BIKELANE          1.5907343533  0.1208957259 13.1579039783             0 ***
+sd.BIKESEP           2.0999800340  0.1498062190 14.0179763473             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2676.940
+AIC= 5401.880
+BIC= 5494.264
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['RECRE_1', 'RECRE_2', 'RECRE_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3']
+asvars_round2 for round 2 ['BIKELANE', 'BIKESEP', 'UNGUARDED', 'CF_age', 'CF']
+nsig_altspec_vars ['CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'RECRE_1', 'RECRE_2', 'RECRE_3', 'DIST3_1', 'DIST3_2', 'DIST3_3', 'FREQ_HIGHEST_1', 'FREQ_HIGHEST_2', 'FREQ_HIGHEST_3', 'CF_pt_1', 'CF_pt_2', 'CF_pt_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['BIKELANE', 'BIKESEP', 'UNGUARDED', 'CF_age', 'CF', 'RECRE', 'RECRE', 'DIST3']
+rem_asvars = ['BIKELANE', 'BIKESEP', 'CF', 'CF_age', 'DIST3', 'RECRE', 'UNGUARDED']
+rem_rand_vars = {'BIKELANE': 'n', 'BIKESEP': 'n'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6]
+Optimization terminated successfully.
+         Current function value: 2621.693974
+         Iterations: 22
+         Function evaluations: 27
+         Gradient evaluations: 27
+Estimation time= 6.7 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45211035 0.45254132 0.09534833]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   0.8149974532  0.3603825628  2.2614785989        0.0243 *  
+CF_age              -0.0053111972  0.0131489805 -0.4039246408         0.687    
+DIST3                0.4830913441  0.0662448174  7.2925152955      2.08e-12 ***
+RECRE                0.2696254119  0.0398186652  6.7713322512      5.46e-11 ***
+UNGUARDED            0.1697637469  0.0659539771  2.5739728594        0.0105 *  
+BIKELANE             1.0429287396  0.1231838676  8.4664393147      6.66e-16 ***
+BIKESEP              1.1977759687  0.1447130191  8.2769053965      2.89e-15 ***
+sd.BIKELANE          1.6015612377  0.1285873010 12.4550498017             0 ***
+sd.BIKESEP           2.1909463111  0.1503119816 14.5759924644             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2621.694
+AIC= 5261.388
+BIC= 5296.032
+None
+non_sig in round 2 ['CF_age']
+non-significant terms are pre-specified
+unique_opp_HM is for iteration 4 is [[4815.867443463982, ['BIKESEP', 'CF', 'CF_age', 'CF_bike', 'CF_child', 'PRICE'], [], {'PRICE': 'n'}, [], [], False], [5117.7613787814325, ['BIKESEP', 'CF', 'PRICE', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 'n'}, [], [], False], [5296.031870626742, ['BIKELANE', 'BIKESEP', 'CF', 'CF_age', 'DIST3', 'RECRE', 'UNGUARDED'], [], {'BIKELANE': 'n', 'BIKESEP': 'n'}, [], [], False], [5410.741702894188, ['BIKELANE', 'CF', 'CF_pt', 'GUARDED', 'PRICE', 'RECRE'], [], {'GUARDED': 'u'}, [], [], False]]
+features for round 1 ['DIST6_1', 'DIST6_2', 'DIST6_3', 'FREQ_HIGHER_1', 'FREQ_HIGHER_2', 'FREQ_HIGHER_3', 'CF_male_1', 'CF_male_2', 'CF_male_3', 'CF_1', 'CF_2', 'CF_3', 'PRICE', 'FREQ_HIGHEST', 'GUARDED', 'CF_income'] [] {'PRICE': 'ln', 'FREQ_HIGHEST': 'ln', 'GUARDED': 'n'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: 2999.878561
+         Iterations: 20
+         Function evaluations: 101
+         Gradient evaluations: 89
+**** The optimization did not converge after 20 iterations. ****
+Message: Desired error not necessarily achieved due to precision loss.
+--------------------------------------------------
+WARNING: Convergence was not reached during estimation. The given estimates may not be reliable
+gtol: 0.0001
+Final gradient norm: 8.43525961465281e+16
+**************************************************
+Estimation time= 28.6 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.46480999 0.46478098 0.07040903]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+DIST6_1              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_2              0.1000000000  1.0000000000  0.1000000000          0.92    
+DIST6_3              0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_1        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_2        0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHER_3        0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_male_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_male_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_male_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_income            0.9559693334  0.0422466504 22.6282870797             0 ***
+PRICE               -11.5265072482  1.9385388612 -5.9459768793       6.7e-09 ***
+FREQ_HIGHEST        -5.7719846261  0.8203765065 -7.0357751352      1.06e-11 ***
+GUARDED             -0.1550424899  0.0661705929 -2.3430724005        0.0197 *  
+sd.PRICE            -3.5805237288  0.7619342251 -4.6992556721      3.77e-06 ***
+sd.FREQ_HIGHEST      2.7016734940  0.4102229020  6.5858670522      1.68e-10 ***
+sd.GUARDED           0.7638102158  0.0988702701  7.7253780607      1.21e-13 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2999.879
+AIC= 6037.757
+BIC= 6110.894
+None
+convergence not reached in round 1
+estimating opposite harmony memory
+opp sol features ['CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3', 'FREQ_HIGHER', 'FREQ_HIGHEST', 'CF_pt', 'CF_age', 'CF_male', 'CF_child'] [] {'FREQ_HIGHER': 'n'} [] [] False False False
+features for round 1 ['CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3', 'FREQ_HIGHER', 'FREQ_HIGHEST', 'CF_pt', 'CF_age', 'CF_male', 'CF_child'] [] {'FREQ_HIGHER': 'n'} [] [] False
+estimating an MXL model
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Optimization terminated successfully.
+         Current function value: 2921.472537
+         Iterations: 18
+         Function evaluations: 25
+         Gradient evaluations: 25
+Estimation time= 6.1 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44773521 0.44773521 0.10452958]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF_stay_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_stay_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_1            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_2            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_bike_3            0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_1                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_2                 0.1000000000  1.0000000000  0.1000000000          0.92    
+CF_3                 0.1000000000  1.0000000000  0.1000000000          0.92    
+FREQ_HIGHEST         0.0783142964  0.0658091874  1.1900207165         0.235    
+CF_pt                0.1499339814  0.0504108434  2.9742406841       0.00314 ** 
+CF_age               0.0524510720  0.0106116811  4.9427674352       1.2e-06 ***
+CF_male             -0.2775092036  0.1239257810 -2.2393177703        0.0258 *  
+CF_child            -0.3958808816  0.1576893905 -2.5105105692        0.0125 *  
+FREQ_HIGHER          0.2142495342  0.0907063435  2.3620126880        0.0187 *  
+sd.FREQ_HIGHER       1.1048679280  0.1017856351 10.8548512508             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2921.473
+AIC= 5874.945
+BIC= 5936.534
+None
+solution converged in first round
+solution consists insignificant coeffs
+non-sig coeffs are ['CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3', 'FREQ_HIGHEST']
+asvars_round2 for round 2 ['FREQ_HIGHER', 'CF_pt', 'CF_age', 'CF_male', 'CF_child', 'CF']
+nsig_altspec_vars ['CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3', 'CF_1', 'CF_2', 'CF_3', 'CF_stay_1', 'CF_stay_2', 'CF_stay_3', 'CF_bike_1', 'CF_bike_2', 'CF_bike_3']
+redund_vars for round 2 ['CF']
+asvars_round2 before removing redundancy ['FREQ_HIGHER', 'CF_pt', 'CF_age', 'CF_male', 'CF_child', 'CF']
+rem_asvars = ['CF', 'CF_age', 'CF_child', 'CF_male', 'CF_pt', 'FREQ_HIGHER']
+rem_rand_vars = {'FREQ_HIGHER': 'n'}
+not same as round 1 model
+MXL model round 2
+self.correlationpos []
+uncorrelatedpos [0, 1, 2, 3, 4, 5]
+Optimization terminated successfully.
+         Current function value: 2892.802937
+         Iterations: 20
+         Function evaluations: 24
+         Gradient evaluations: 24
+Estimation time= 5.3 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.44983365 0.44983365 0.10033271]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   4.0711395219  0.5299539233  7.6820631812      1.62e-13 ***
+CF_age              -0.0104942261  0.0117611504 -0.8922788801         0.373    
+CF_child            -0.7846377731  0.1545633475 -5.0764801994      6.28e-07 ***
+CF_male             -0.3952716885  0.1259780540 -3.1376233872       0.00185 ** 
+CF_pt               -0.2714501379  0.0791473462 -3.4296808515      0.000677 ***
+FREQ_HIGHER          0.1598360466  0.0841519105  1.8993751366        0.0583 .  
+sd.FREQ_HIGHER       1.1170761103  0.1007711048 11.0852819558             0 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2892.803
+AIC= 5799.606
+BIC= 5826.551
+None
+non_sig in round 2 ['CF_age', 'FREQ_HIGHER']
+solution consists insignificant coeffs
+non-sig coeffs are ['CF_age', 'FREQ_HIGHER']
+asvars_round2 for round 2 ['CF', 'CF_child', 'CF_male', 'CF_pt', 'CF']
+nsig_altspec_vars []
+rem_asvars = ['CF', 'CF_child', 'CF_male', 'CF_pt']
+rem_rand_vars = {}
+not same as round 1 model
+MNL model round 2
+Estimation time= 0.0 seconds
+Frequencies of alternatives: observed choice
+[0.45341018 0.44668588 0.09990394]
+Frequencies of alternatives: predicted choice
+[0.45004803 0.45004803 0.09990394]
+---------------------------------------------------------------------------
+Coefficient              Estimate      Std.Err.         z-val         P>|z|
+---------------------------------------------------------------------------
+CF                   3.7196141785  0.4213548289  8.8277478356             0 ***
+CF_child            -0.7502166718  0.1440788271 -5.2069876395      2.04e-07 ***
+CF_male             -0.3768927021  0.1207093189 -3.1223165324       0.00181 ** 
+CF_pt               -0.2623447510  0.0780260305 -3.3622721702      0.000782 ***
+---------------------------------------------------------------------------
+Significance:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Log-Likelihood= -2942.109
+AIC= 5892.217
+BIC= 5916.404
+None
+non_sig in round 2 []
+non-significant terms cannot be further eliminated
+unique_opp_HM is for iteration 5 is [[4815.867443463982, ['BIKESEP', 'CF', 'CF_age', 'CF_bike', 'CF_child', 'PRICE'], [], {'PRICE': 'n'}, [], [], False], [5117.7613787814325, ['BIKESEP', 'CF', 'PRICE', 'RECRE', 'UNGUARDED'], [], {'BIKESEP': 'n'}, [], [], False], [5296.031870626742, ['BIKELANE', 'BIKESEP', 'CF', 'CF_age', 'DIST3', 'RECRE', 'UNGUARDED'], [], {'BIKELANE': 'n', 'BIKESEP': 'n'}, [], [], False], [5410.741702894188, ['BIKELANE', 'CF', 'CF_pt', 'GUARDED', 'PRICE', 'RECRE'], [], {'GUARDED': 'u'}, [], [], False], [5916.403587361107, ['CF', 'CF_child', 'CF_male', 'CF_pt'], [], {}, [], [], False]]

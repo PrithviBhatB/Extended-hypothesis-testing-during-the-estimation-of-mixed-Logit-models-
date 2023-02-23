@@ -1,0 +1,214 @@
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:969: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if sol[0] in hm_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:969: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if sol[0] in hm_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:969: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if sol[0] in hm_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:1032: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if opp_sol[0] in opp_HM_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:969: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if sol[0] in hm_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:969: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if sol[0] in hm_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:1032: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if opp_sol[0] in opp_HM_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:969: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if sol[0] in hm_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:969: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if sol[0] in hm_varnames:
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:1032: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if opp_sol[0] in opp_HM_varnames:
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/Berlin/August/Berlin_Updated_12.08.2021.py:1669: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  plt.figure()
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
+/home/n10380558/.local/lib/python3.9/site-packages/xlogitprit/_choice_model.py:118: RuntimeWarning: invalid value encountered in sqrt
+  self.stderr = np.sqrt(np.diag(np.array(self.Hinv)))
